@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Spooked.unity
+- path: Assets/Spooooooooooooked.unity
   isLoaded: 1
   isActive: 1
