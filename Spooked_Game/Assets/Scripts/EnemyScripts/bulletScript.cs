@@ -40,7 +40,7 @@ public class bulletScript : MonoBehaviour {
             if (!GameObject.Find("Player").GetComponent<Movement>().protection)
             {
                 fail = true;
-                GameObject.Find("Clock").GetComponent<Clock>().time -= 100f;
+                //GameObject.Find("Clock").GetComponent<Clock>().time -= 100f;		MUST BE FIXED!!!
                 EnemyMovement.sceletonBulletScoreValue = true;
             }
             Destroy(Bul);                           //destroy after hitting player

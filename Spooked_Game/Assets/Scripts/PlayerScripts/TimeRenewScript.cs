@@ -5,7 +5,7 @@ using UnityEngine;
 public class TimeRenewScript : MonoBehaviour {
 
 	private GameObject Player;
-	public GameObject Clock;
+	//public GameObject Clock; 
 
 	void Start () {
 		Player = GameObject.FindGameObjectWithTag ("Player");
@@ -15,7 +15,7 @@ public class TimeRenewScript : MonoBehaviour {
 	{
 		if (col.gameObject == Player) {
 			gameObject.GetComponent<AudioSource>().Play();
-			Clock.GetComponent<Clock> ().time = 300f;
+			//Clock.GetComponent<Clock> ().time = 300f;
 		}
 	}
 }
