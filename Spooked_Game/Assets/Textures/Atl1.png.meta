@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 5799f4ca1ab3db34094000e7c0a885ee
-timeCreated: 1509699188
+timeCreated: 1510176756
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -237,8 +237,8 @@ TextureImporter:
       name: Atl1_9
       rect:
         serializedVersion: 2
-        x: 118
-        y: 1731
+        x: 119
+        y: 1730
         width: 129
         height: 55
       alignment: 0
