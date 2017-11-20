@@ -9,7 +9,6 @@ public class Bugs_ButterFly : Bugs_Base
     private float delayStop;
     private float maxDelayStop;
     private int look;
-    private bool facingRight;
     private bool onCollision = false;
 
     void Start()

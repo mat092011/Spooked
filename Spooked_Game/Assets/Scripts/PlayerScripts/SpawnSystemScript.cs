@@ -50,17 +50,19 @@ public class SpawnSystemScript : MonoBehaviour
                 case 3: enemyPosition = EnemyPosition1; break;
                 case 4: enemyPosition = EnemyPosition3; break;
             }
-            if (Movement.runSpeed == false && (SpawnPos == 1 || SpawnPos == 2))
-            {
-                Instantiate(Sceleton, enemyPosition.transform.position, Quaternion.identity);
-                enemyExists++;
-            }
-            else
-            {
-                Instantiate(Ghost, enemyPosition.transform.position, Quaternion.identity);
-                enemyExists++;
-            }
-        }
+			Instantiate(Ghost, enemyPosition.transform.position, Quaternion.identity);
+			enemyExists++;
+			//if (Movement.runSpeed == false && (SpawnPos == 1 || SpawnPos == 2))
+			//{
+			//    Instantiate(Sceleton, enemyPosition.transform.position, Quaternion.identity);
+			//    enemyExists++;
+			//}
+			//else
+			//{
+			//    Instantiate(Ghost, enemyPosition.transform.position, Quaternion.identity);
+			//    enemyExists++;
+			//}
+		}
     }
 
 	void SpawnBug() {
