@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b400cdabefbeae841a114e2a962190ef
-timeCreated: 1511173833
+timeCreated: 1511432002
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -45,6 +45,7 @@ TextureImporter:
     21300076: Atl2_38
     21300078: Atl2_39
     21300080: Atl2_40
+    21300082: Atl2_41
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -688,11 +689,25 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 127
-        y: 1516
-        width: 50
-        height: 20
+        y: 1501
+        width: 53
+        height: 26
       alignment: 9
-      pivot: {x: 0.8339517, y: 0.4845398}
+      pivot: {x: 0.81229734, y: 0.492721}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_41
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1463
+        width: 47
+        height: 25
+      alignment: 9
+      pivot: {x: 0.7970649, y: 0.63113767}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
