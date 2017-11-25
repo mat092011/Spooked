@@ -3,11 +3,14 @@ using System.Collections;
 
 public class GhostMovementScript : MonoBehaviour {
 
-    private GameObject Player;
+	private Animator anim;
+	private GameObject Player;
 	private Rigidbody2D ghostPhysics;
     public float Speed = 2.0f;
-    //private float delayToFly = 1.5f;
-    //private float delayToRandMove = 0.3f;
+	//private float delayToFly = 1.5f;
+	//private float delayToRandMove = 0.3f;
+	private bool agro;
+	private bool attack;
     private bool facingRight;
 	private bool changeVector = false;
     private int directionFlipManager;
@@ -24,19 +27,28 @@ public class GhostMovementScript : MonoBehaviour {
 
 
     void Start () {
+		anim = gameObject.GetComponent<Animator>();
 		Player = GameObject.FindGameObjectWithTag("Player");
 		vectorOfMovement = new Vector2(Player.transform.position.x, Player.transform.position.y);
 		ghostPhysics = gameObject.GetComponent<Rigidbody2D>();
 	}
 	
 	void Update () {
+		anim.SetBool("Agro", agro);
+		anim.SetBool("Attack", attack);         //anim
 
 		if (Movement.runSpeed && !onCollisionWithPlayer) {
+			if (!agro) {
+				agro = true;
+			}
 			vectorOfMovement = new Vector2(Player.transform.position.x, Player.transform.position.y);
 			ghostPhysics.velocity = new Vector2() * 0;
 			gameObject.transform.position = Vector2.MoveTowards(transform.position, vectorOfMovement, Speed * Time.deltaTime); // moving to player
 			changeVector = true;
 		} else {
+			if (agro) {
+				agro = false;
+			}
 			if (onCollisionWithPlayer) {
 				int y = 0;
 				switch (Random.Range(0,2)) {
@@ -136,9 +148,9 @@ public class GhostMovementScript : MonoBehaviour {
         }
 
         if (gameObject.transform.position.x < Player.transform.position.x) {
-            directionFlipManager = -1;
+            directionFlipManager = 1;
         }
-        else { directionFlipManager = 1; }
+        else { directionFlipManager = -1; }
 
         if (directionFlipManager < 0 && !facingRight) {
             Flip();
@@ -152,10 +164,14 @@ public class GhostMovementScript : MonoBehaviour {
         if (col.gameObject.tag == "Area") {
             destroy = true;
         }
-    }
+		if (col.gameObject == Player) {
+			attack = false;
+		}
+	}
 
 	void OnTriggerEnter2D(Collider2D col) {
 		if (col.gameObject == Player) {
+			attack = true;
 			onCollisionWithPlayer = true;
 		}
 	}

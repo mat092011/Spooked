@@ -23,8 +23,7 @@ public class SpawnSystemScript : MonoBehaviour
     public GameObject Dragonfly;
     public GameObject Fly;
 
-    void Update()
-    {
+    void Update() {
 		SpawnGameEnemy();
 		if (tutorial) {
 			SpawnWormTutorial();
@@ -32,19 +31,15 @@ public class SpawnSystemScript : MonoBehaviour
 		if (!tutorial) {
 			SpawnBug();
 		}
-        if (bugExists < 0)
-        {
+        if (bugExists < 0) {
             bugExists = 0;
         }
     }
 
-    void SpawnGameEnemy()
-    {
-        if (enemyExists == 0 && Movement.fail == false)
-        {
+    void SpawnGameEnemy() {
+        if (enemyExists == 0 && Movement.fail == false) {
             int SpawnPos = Random.Range(1, 5);
-            switch (SpawnPos)
-            {
+            switch (SpawnPos) {
                 case 1: enemyPosition = EnemyPosition2; break;
                 case 2: enemyPosition = EnemyPosition4; break;
                 case 3: enemyPosition = EnemyPosition1; break;
@@ -73,16 +68,17 @@ public class SpawnSystemScript : MonoBehaviour
 				case 3: enemyPosition = EnemyPosition3; break;
 				case 4: enemyPosition = EnemyPosition4; break;
 			}
-			switch (Random.Range(0, 8)) {
-				case 0: Instantiate(Worm, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
-				case 1: Instantiate(Grasshopper, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
-				case 2: Instantiate(Butterfly, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
-				case 3: Instantiate(Bee, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
-				case 4: Instantiate(Carterpilar, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
-				case 5: Instantiate(Frog, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
-				case 6: Instantiate(Dragonfly, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
-				case 7: Instantiate(Fly, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
-			}
+			Instantiate(Worm, enemyPosition.transform.position, Quaternion.identity); bugExists++;
+			//switch (Random.Range(0, 8)) {
+			//	case 0: Instantiate(Worm, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+			//	case 1: Instantiate(Grasshopper, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+			//	case 2: Instantiate(Butterfly, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+			//	case 3: Instantiate(Bee, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+			//	case 4: Instantiate(Carterpilar, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+			//	case 5: Instantiate(Frog, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+			//	case 6: Instantiate(Dragonfly, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+			//	case 7: Instantiate(Fly, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+			//}
 		}
 	}
 
