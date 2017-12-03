@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Jump : MonoBehaviour {
 
+	public static bool jump = false;
     public float jumpHeight = 1000f;
     private Rigidbody2D playerPhysics;
 
@@ -14,7 +15,7 @@ public class Jump : MonoBehaviour {
 	void Update () {
         if (GameObject.Find("Player").GetComponent<Movement>().grounded)
         {
-            if ((Input.GetButtonDown("Jump") && !Movement.fail))
+            if (((Input.GetButtonDown("Jump") || jump) && !Movement.fail))
             {
                 StartCoroutine("JumpUp");            //jump???
             }

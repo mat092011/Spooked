@@ -10,6 +10,7 @@ public class ActionScript : MonoBehaviour {
     private Vector3 PlayerTransportPosition = new Vector3(0, 0);
     private bool[] selectedSpell = new bool[10];
     private float delayToShoot = 0f;
+	public bool fire = false;
     public static bool playerBulletRelativePosition;
     public int lightning;
     public int fireball;
@@ -34,7 +35,7 @@ public class ActionScript : MonoBehaviour {
             playerBulletRelativePosition = true;
         }
         else { playerBulletRelativePosition = false; }
-        if (Input.GetKey(KeyCode.F) && !Movement.fail)
+        if ((Input.GetKey(KeyCode.F) || fire) && !Movement.fail)
         {
             selectedSpell = InGameUISpellDisplay.selectedSpell;
             if (delayToShoot <= 0.0f && lightning > 0 && selectedSpell[1] == true)

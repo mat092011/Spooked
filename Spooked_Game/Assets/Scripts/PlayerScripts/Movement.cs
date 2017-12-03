@@ -6,18 +6,25 @@ public class Movement : MonoBehaviour {
     public float moveSpeed = 10f;
     private float delayAfterFail = 1.0f;
     private float delayAfterKnockBack = 0f;
+
 	private AudioSource audioWalk;
     private Rigidbody2D playerPhysics;
     private Animator anim;
     private Vector3 tempEnemyPosition;
-    public static bool fail;
+
+	private int move = 1;
+	public static bool fail;
     public float protectionDur;
     public bool protection = false;
     public bool grounded;
     private float airSpeed;
     public static bool runSpeed;
     private bool facingRight = true;
-    public static int enemyExists;
+	public Vector2 vectorOfMove;
+	public bool left = false;
+	public bool right = false;
+	public static int enemyExists;
+
     public int worms;
     public int grasshoppers;
     public int butterflies;
@@ -40,30 +47,31 @@ public class Movement : MonoBehaviour {
         anim.SetBool("Grounded", grounded);         //anim
         anim.SetBool("RunSpeed", runSpeed);
 
-        runSpeed = false;
-        float move = Input.GetAxis("Horizontal");
+		if (runSpeed) {
+			runSpeed = false;
+		}
 
-        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && !fail)
-        {
-            if (grounded)
-            {
-                airSpeed = 1;
-            }
-            else { airSpeed = 0.06f; }
-            playerPhysics.AddForce(Vector2.left * moveSpeed * airSpeed);     //run left
-            runSpeed = true;
-        }
+		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || left) && !fail) {
+			if (grounded) {
+				airSpeed = 1;
+			} else { airSpeed = 0.16f; }
+			if (move > 0) {
+				move = -1;
+			}
+			playerPhysics.AddForce(Vector2.left * moveSpeed * airSpeed);     //run left
+			runSpeed = true;
+		}
 
-        if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) && !fail)
-        {
-			if (grounded)
-            {
-                airSpeed = 1;
-            }
-            else { airSpeed = 0.06f; }
-            playerPhysics.AddForce(Vector2.right * moveSpeed * airSpeed);          //run right
-            runSpeed = true;
-        }
+		if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || right) && !fail) {
+			if (grounded) {
+				airSpeed = 1;
+			} else { airSpeed = 0.16f; }
+			if (move < 0) {
+				move = 1;
+			}
+			playerPhysics.AddForce(Vector2.right * moveSpeed * airSpeed);          //run right
+			runSpeed = true;
+		}
 
 		if (runSpeed && grounded) {
 			if (!audioWalk.loop) {
@@ -174,7 +182,9 @@ public class Movement : MonoBehaviour {
 		if (protectionDur > 0) {
 			protectionDur -= Time.deltaTime;
 		}else {
-			protection = false;							/*must be uncommented!!!!!*/
+			if (protection) {
+				protection = false;                         /*must be uncommented!!!!!*/
+			}
 		}
     }
 
