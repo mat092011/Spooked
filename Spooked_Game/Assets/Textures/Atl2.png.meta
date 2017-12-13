@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b400cdabefbeae841a114e2a962190ef
-timeCreated: 1512068608
+timeCreated: 1513158053
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -53,6 +53,14 @@ TextureImporter:
     21300092: Atl2_46
     21300094: Atl2_47
     21300096: Atl2_48
+    21300098: Atl2_49
+    21300100: Atl2_50
+    21300102: Atl2_51
+    21300104: Atl2_52
+    21300106: Atl2_53
+    21300108: Atl2_54
+    21300110: Atl2_55
+    21300112: Atl2_56
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -779,10 +787,10 @@ TextureImporter:
       name: Atl2_46
       rect:
         serializedVersion: 2
-        x: 1411
-        y: 1840
-        width: 205
-        height: 205
+        x: 1383
+        y: 1924
+        width: 46
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -793,10 +801,10 @@ TextureImporter:
       name: Atl2_47
       rect:
         serializedVersion: 2
-        x: 1625
-        y: 1841
-        width: 204
-        height: 205
+        x: 1450
+        y: 1954
+        width: 84
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -807,10 +815,122 @@ TextureImporter:
       name: Atl2_48
       rect:
         serializedVersion: 2
-        x: 1838
-        y: 1837
-        width: 204
-        height: 205
+        x: 1550
+        y: 1813
+        width: 250
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_49
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1824
+        width: 239
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_50
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1689
+        width: 247
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_51
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1884
+        width: 397
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_52
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1842
+        width: 203
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_53
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 1690
+        width: 587
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_54
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1530
+        width: 120
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_55
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1559
+        width: 136
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_56
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1567
+        width: 93
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
