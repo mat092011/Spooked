@@ -13,7 +13,7 @@ public class bulletScript : MonoBehaviour {
         fail = false;
         Bul = gameObject;
         rgb2 = gameObject.GetComponent<Rigidbody2D>();
-        bool bulletGoesRight = EnemyMovement.bulletRelativePosition;
+        bool bulletGoesRight = SceletonMovement.bulletRelativePosition;
         if (bulletGoesRight == true)
         {
             rgb2.velocity = (Vector2.right * Speed);
@@ -40,8 +40,8 @@ public class bulletScript : MonoBehaviour {
             if (!GameObject.Find("Player").GetComponent<Movement>().protection)
             {
                 fail = true;
-                //GameObject.Find("Clock").GetComponent<Clock>().time -= 100f;		MUST BE FIXED!!!
-                EnemyMovement.sceletonBulletScoreValue = true;
+				//GameObject.Find("Clock").GetComponent<Clock>().time -= 100f;		MUST BE FIXED!!!
+				SceletonMovement.sceletonBulletScoreValue = true;
             }
             Destroy(Bul);                           //destroy after hitting player
         }

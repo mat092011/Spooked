@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyMovement : MonoBehaviour {
+public class SceletonMovement : MonoBehaviour {
 
     public Rigidbody2D enemyPhysics;
     public GameObject BulletPos;
@@ -70,16 +70,18 @@ public class EnemyMovement : MonoBehaviour {
     {
         anim.SetBool("Grounded", grounded);         //anim
         anim.SetBool("RunSpeed", runSpeed);
-        runSpeed = false;
+		if (runSpeed) {
+			runSpeed = false;
+		}
 
         if (WallTriggered)
         {
             WallTriggered = false;
             FindPosition();
-        }
-        else
-        {
-            runSpeed = true;
+        } else {
+			if (!runSpeed) {
+				runSpeed = true;
+			}
             enemyPhysics.AddForce(vector * moveSpeed * airSpeed);      //sceleton runs
         }
 
@@ -146,8 +148,8 @@ public class EnemyMovement : MonoBehaviour {
 
         if (((Enemy.transform.position.y + 0.25 < Player.transform.position.y)) && grounded && !onCollisionWithPlayer)
         {
-            StartCoroutine("JumpUp");         //jump try
-        }
+			enemyPhysics.AddForce(new Vector2(0, 50) * jumpHeight);
+		}
 
         if (destroyEnemyUnit)
         {
@@ -186,15 +188,6 @@ public class EnemyMovement : MonoBehaviour {
         }
     }
 
-    IEnumerator JumpUp()
-    {
-        for (int i = 100; i > 0; i--)
-        {
-            enemyPhysics.AddForce(Vector2.up * jumpHeight * (i / 100));
-        }
-        yield return null;
-    }
-
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Ground")
@@ -206,8 +199,8 @@ public class EnemyMovement : MonoBehaviour {
         {
             if (Enemy.transform.position.y > Player.transform.position.y)
             {
-                StartCoroutine("JumpUp");
-            }
+				enemyPhysics.AddForce(new Vector2(0, 50) * jumpHeight);
+			}
             FindPosition();
             vector = -vector;
             onCollisionWithPlayer = true;

@@ -7,6 +7,7 @@ public class Jump : MonoBehaviour {
 	public static bool jump = false;
     public float jumpHeight = 1000f;
     private Rigidbody2D playerPhysics;
+	public Vector2 vector;
 
     void Start () {
         playerPhysics = gameObject.GetComponent<Rigidbody2D>();
@@ -17,8 +18,9 @@ public class Jump : MonoBehaviour {
         {
             if (((Input.GetButtonDown("Jump") || jump) && !Movement.fail))
             {
-                StartCoroutine("JumpUp");            //jump???
-            }
+				//StartCoroutine("JumpUp");            //jump???
+				playerPhysics.AddForce(vector * jumpHeight);
+			}
         }
     }
 

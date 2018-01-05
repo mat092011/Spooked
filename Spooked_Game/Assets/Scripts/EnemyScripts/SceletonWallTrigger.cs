@@ -16,18 +16,18 @@ public class SceletonWallTrigger : MonoBehaviour {
     {
         if (col.gameObject.tag == "Untagged")
         {
-            EnemyMovement.sceletonBulletScoreValue = false;
-            GameObject.Find("Skeleton(Clone)").GetComponent<EnemyMovement>().onCollisionWithPlayer = false;
-            GameObject.Find("Skeleton(Clone)").GetComponent<EnemyMovement>().WallTriggered = true;
+			SceletonMovement.sceletonBulletScoreValue = false;
+            GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().onCollisionWithPlayer = false;
+            GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().WallTriggered = true;
         }
     }
     void OnTriggerStay2D(Collider2D col)
     {
         if (col.gameObject.tag == "Untagged")
         {
-            EnemyMovement.sceletonBulletScoreValue = false;
-            GameObject.Find("Skeleton(Clone)").GetComponent<EnemyMovement>().onCollisionWithPlayer = false;
-            GameObject.Find("Skeleton(Clone)").GetComponent<EnemyMovement>().WallTriggered = true;
+			SceletonMovement.sceletonBulletScoreValue = false;
+            GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().onCollisionWithPlayer = false;
+            GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().WallTriggered = true;
         }
     }
 }
