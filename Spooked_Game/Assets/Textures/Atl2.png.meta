@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b400cdabefbeae841a114e2a962190ef
-timeCreated: 1514752059
+timeCreated: 1515145335
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -71,6 +71,8 @@ TextureImporter:
     21300128: Atl2_64
     21300130: Atl2_65
     21300132: Atl2_66
+    21300134: Atl2_67
+    21300136: Atl2_68
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -1083,6 +1085,34 @@ TextureImporter:
         height: 81
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_67
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1802
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_68
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1608
+        width: 251
+        height: 251
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
