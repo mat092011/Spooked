@@ -54,7 +54,7 @@ public class Movement : MonoBehaviour {
 		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || left) && !fail) {
 			if (grounded) {
 				airSpeed = 1;
-			} else { airSpeed = 0.16f; }
+			} else { airSpeed = 0.10f; }
 			if (move > 0) {
 				move = -1;
 			}
@@ -65,7 +65,7 @@ public class Movement : MonoBehaviour {
 		if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || right) && !fail) {
 			if (grounded) {
 				airSpeed = 1;
-			} else { airSpeed = 0.16f; }
+			} else { airSpeed = 0.10f; }
 			if (move < 0) {
 				move = 1;
 			}
@@ -122,11 +122,11 @@ public class Movement : MonoBehaviour {
             {
                 fail = true;
 
-                if (EnemyMovement.bulletRelativePosition == true)
+                if (SceletonMovement.bulletRelativePosition == true)
                 {
                     tempEnemyPosition = playerPhysics.transform.position - new Vector3(3, 0);
                 }
-                if (EnemyMovement.bulletRelativePosition == false)
+                if (SceletonMovement.bulletRelativePosition == false)
                 {
                     tempEnemyPosition = playerPhysics.transform.position + new Vector3(3, 0);
                 }
