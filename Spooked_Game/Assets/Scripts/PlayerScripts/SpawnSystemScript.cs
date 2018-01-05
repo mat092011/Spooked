@@ -23,6 +23,8 @@ public class SpawnSystemScript : MonoBehaviour
     public GameObject Dragonfly;
     public GameObject Fly;
 
+	public bool canSpawn = true;
+
     void Update() {
 		SpawnGameEnemy();
 		if (tutorial) {
@@ -38,25 +40,23 @@ public class SpawnSystemScript : MonoBehaviour
 
     void SpawnGameEnemy() {
         if (enemyExists == 0 && Movement.fail == false) {
-            int SpawnPos = Random.Range(1, 5);
+			int SpawnPos = Random.Range(1, 5);
             switch (SpawnPos) {
                 case 1: enemyPosition = EnemyPosition2; break;
                 case 2: enemyPosition = EnemyPosition4; break;
                 case 3: enemyPosition = EnemyPosition1; break;
                 case 4: enemyPosition = EnemyPosition3; break;
             }
-			Instantiate(Ghost, enemyPosition.transform.position, Quaternion.identity);
-			enemyExists++;
-			//if (Movement.runSpeed == false && (SpawnPos == 1 || SpawnPos == 2))
-			//{
-			//    Instantiate(Sceleton, enemyPosition.transform.position, Quaternion.identity);
-			//    enemyExists++;
-			//}
-			//else
-			//{
-			//    Instantiate(Ghost, enemyPosition.transform.position, Quaternion.identity);
-			//    enemyExists++;
-			//}
+			Vector3 vector2 = new Vector3(enemyPosition.transform.position.x, enemyPosition.transform.position.y, enemyPosition.transform.position.z + 2);
+			Vector3 vector = new Vector3(enemyPosition.transform.position.x, enemyPosition.transform.position.y, enemyPosition.transform.position.z);
+			RaycastHit2D hit = Physics2D.Raycast(vector2, vector);
+			if (Movement.runSpeed == false && (SpawnPos == 1 || SpawnPos == 2) && hit.collider == gameObject.GetComponent<Collider2D>()) {
+				Instantiate(Sceleton, enemyPosition.transform.position, Quaternion.identity);
+				enemyExists++;
+			} else {
+				Instantiate(Ghost, enemyPosition.transform.position, Quaternion.identity);
+				enemyExists++;
+			}
 		}
     }
 
