@@ -12,14 +12,14 @@ public class Movement : MonoBehaviour {
     private Animator anim;
     private Vector3 tempEnemyPosition;
 
-	private int move = 1;
+	private int move = -1;
 	public static bool fail;
     public float protectionDur;
     public bool protection = false;
     public bool grounded;
     private float airSpeed;
     public static bool runSpeed;
-    private bool facingRight = true;
+    private bool facingRight = false;
 	public Vector2 vectorOfMove;
 	public bool left = false;
 	public bool right = false;
@@ -34,8 +34,7 @@ public class Movement : MonoBehaviour {
     public int dragonflies;
     public int flies;
 
-    void Start()
-    {
+    void Start() {
 		audioWalk = gameObject.GetComponent<AudioSource>();
         playerPhysics = gameObject.GetComponent<Rigidbody2D>();
         anim = gameObject.GetComponent<Animator>();
@@ -49,6 +48,10 @@ public class Movement : MonoBehaviour {
 
 		if (runSpeed) {
 			runSpeed = false;
+		}
+
+		if (Input.GetKey(KeyCode.Z)) {
+			Flip();
 		}
 
 		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || left) && !fail) {
@@ -87,12 +90,9 @@ public class Movement : MonoBehaviour {
             playerPhysics.velocity = playerPhysics.velocity.normalized * 8.0f;
         }
 
-        if (move < 0 && !facingRight)
-        {
+        if (move > 0 && !facingRight) {
             Flip();
-        }
-        else if (move > 0 && facingRight)
-        {
+        } else if (move < 0 && facingRight) {
             Flip();
         }
     }
@@ -192,6 +192,6 @@ public class Movement : MonoBehaviour {
         facingRight = !facingRight;
         Vector3 Scale = transform.localScale;
         Scale.x *= -1;
-        transform.localScale = Scale;
+		transform.localScale = Scale;
     }
 }
