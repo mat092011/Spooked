@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class bulletScript : MonoBehaviour {
+public class EnemyBulletScript : MonoBehaviour {
 
     public int Speed = 10;
     private GameObject Bul;
@@ -40,9 +40,9 @@ public class bulletScript : MonoBehaviour {
             if (!GameObject.Find("Player").GetComponent<Movement>().protection)
             {
                 fail = true;
-				//GameObject.Find("Clock").GetComponent<Clock>().time -= 100f;		MUST BE FIXED!!!
 				SceletonMovement.sceletonBulletScoreValue = true;
-            }
+				//GameObject.Find("Clock").GetComponent<Clock>().time -= 100f;		MUST BE FIXED!!!
+			}
             Destroy(Bul);                           //destroy after hitting player
         }
     }

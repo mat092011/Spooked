@@ -38,12 +38,12 @@ public class ActionScript : MonoBehaviour {
         if ((Input.GetKey(KeyCode.F) || fire) && !Movement.fail)
         {
             selectedSpell = InGameUISpellDisplay.selectedSpell;
-            if (delayToShoot <= 0.0f && lightning > 0 && selectedSpell[1] == true)
-            {
-                Instantiate(PlayerBullet, PlayerBulletPosition.transform.position, Quaternion.identity);
-                delayToShoot = 0.5f;
-            }
-            if (delayToShoot <= 0.0f && fireball > 0 && selectedSpell[2] == true)
+            //if (delayToShoot <= 0.0f && lightning > 0)
+            //{
+            //    Instantiate(PlayerBullet, PlayerBulletPosition.transform.position, Quaternion.identity);
+            //    delayToShoot = 0.5f;
+            //}
+            if (delayToShoot <= 0.0f && fireball > 0)
             {
                 Instantiate(PlayerFireball, PlayerBulletPosition.transform.position, Quaternion.identity);
 				fireball--;

@@ -40,18 +40,13 @@ public class Movement : MonoBehaviour {
         anim = gameObject.GetComponent<Animator>();
     }
 
-    void FixedUpdate()
-    {
+    void FixedUpdate() {
         anim.SetBool("Fail", fail);
         anim.SetBool("Grounded", grounded);         //anim
         anim.SetBool("RunSpeed", runSpeed);
 
 		if (runSpeed) {
 			runSpeed = false;
-		}
-
-		if (Input.GetKey(KeyCode.Z)) {
-			Flip();
 		}
 
 		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || left) && !fail) {
@@ -85,8 +80,7 @@ public class Movement : MonoBehaviour {
 			audioWalk.loop = false;
 		}
 
-		if (playerPhysics.velocity.magnitude > 8.0f)
-        {
+		if (playerPhysics.velocity.magnitude > 8.0f) {
             playerPhysics.velocity = playerPhysics.velocity.normalized * 8.0f;
         }
 
@@ -97,8 +91,7 @@ public class Movement : MonoBehaviour {
         }
     }
 
-    void Update()
-    {
+    void Update() {
 		if (protection) {
 			Protection();
 		}
@@ -106,72 +99,56 @@ public class Movement : MonoBehaviour {
         CheckApplyKnockBack();
     }
 
-    void CheckApplyKnockBack()
-    {
-        if (protection == false)
-        {
-            if (GhostMovementScript.onCollisionWithPlayer == true && fail != true)
-            {
+    void CheckApplyKnockBack() {
+        if (protection == false) {
+            if (GhostMovementScript.onCollisionWithPlayer == true && fail != true) {
                 fail = true;
                 GameObject tempEnemy = GameObject.FindGameObjectWithTag("Enemy");
                 tempEnemyPosition = new Vector3(tempEnemy.transform.position.x, tempEnemy.transform.position.y);
                 delayAfterKnockBack = Random.Range(0.1f, 0.3f);
             }
 
-            if (bulletScript.fail == true && fail != true)
-            {
+            if (EnemyBulletScript.fail == true && fail != true) {
                 fail = true;
 
-                if (SceletonMovement.bulletRelativePosition == true)
-                {
+                if (SceletonMovement.bulletRelativePosition == true) {
                     tempEnemyPosition = playerPhysics.transform.position - new Vector3(3, 0);
                 }
-                if (SceletonMovement.bulletRelativePosition == false)
-                {
+                if (SceletonMovement.bulletRelativePosition == false) {
                     tempEnemyPosition = playerPhysics.transform.position + new Vector3(3, 0);
                 }
                 delayAfterKnockBack = Random.Range(0.1f, 0.3f);
             }
 
-            if (fail == true && delayAfterFail > 0)
-            {
+            if (fail == true && delayAfterFail > 0) {
                 delayAfterFail -= Time.deltaTime;
                 delayAfterKnockBack -= Time.deltaTime;
-                if (delayAfterKnockBack > 0)
-                {
-                    if (playerPhysics.transform.position.x < tempEnemyPosition.x)
-                    {
+                if (delayAfterKnockBack > 0) {
+                    if (playerPhysics.transform.position.x < tempEnemyPosition.x) {
                         playerPhysics.AddForce(new Vector2(-1 * (moveSpeed + 40f), 1 * (moveSpeed + 5000f)) * Time.deltaTime);
                     }
-                    if (playerPhysics.transform.position.x > tempEnemyPosition.x)
-                    {
+                    if (playerPhysics.transform.position.x > tempEnemyPosition.x) {
                         playerPhysics.AddForce(new Vector2(1 * (moveSpeed + 40f), 1 * (moveSpeed + 5000f)) * Time.deltaTime);
                     }
                 }
-                if (delayAfterFail <= 0)
-                {
+                if (delayAfterFail <= 0) {
                     fail = false;
                     delayAfterFail = 1.0f;
                     delayAfterKnockBack = 0;
-                    bulletScript.fail = false;
+                    EnemyBulletScript.fail = false;
                 }
             }
         }
     }
 
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.tag == "Enemy" && fail != true)
-        {
-            if (protection == false)
-            {
+    void OnCollisionEnter2D(Collision2D col) {
+        if (col.gameObject.tag == "Enemy" && fail != true) {
+            if (protection == false) {
                 fail = true;
                 GameObject tempEnemy = GameObject.FindGameObjectWithTag("Enemy");
                 tempEnemyPosition = new Vector3(tempEnemy.transform.position.x, tempEnemy.transform.position.y);
                 delayAfterKnockBack = Random.Range(0.5f, 1.2f);
-            }
-            else
-            {
+            } else {
                 GameObject Enemy = GameObject.FindGameObjectWithTag("Enemy");
                 Physics2D.IgnoreCollision(Enemy.GetComponent<Collider2D>(), gameObject.GetComponent<Collider2D>(), true);
             }

@@ -12,22 +12,22 @@ public class SceletonWallTrigger : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Untagged")
-        {
-			SceletonMovement.sceletonBulletScoreValue = false;
-            GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().onCollisionWithPlayer = false;
-            GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().WallTriggered = true;
-        }
-    }
-    void OnTriggerStay2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Untagged")
-        {
-			SceletonMovement.sceletonBulletScoreValue = false;
-            GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().onCollisionWithPlayer = false;
-            GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().WallTriggered = true;
-        }
-    }
+   // void OnTriggerEnter2D(Collider2D col)
+   // {
+   //     if (col.gameObject.tag == "Untagged")
+   //     {
+			//SceletonMovement.sceletonBulletScoreValue = false;
+   //         GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().onCollisionWithPlayer = false;
+   //         GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().WallTriggered = true;
+   //     }
+   // }
+   // void OnTriggerStay2D(Collider2D col)
+   // {
+   //     if (col.gameObject.tag == "Untagged")
+   //     {
+			//SceletonMovement.sceletonBulletScoreValue = false;
+   //         GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().onCollisionWithPlayer = false;
+   //         GameObject.Find("Skeleton(Clone)").GetComponent<SceletonMovement>().WallTriggered = true;
+   //     }
+   // }
 }

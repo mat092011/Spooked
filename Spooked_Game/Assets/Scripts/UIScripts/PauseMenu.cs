@@ -27,15 +27,15 @@ public class PauseMenu : MonoBehaviour {
 	
 	void Update ()
     {
-		if(Input.GetKey(KeyCode.Escape) && delayToExit <= 0 && !PotMenu.activeSelf)
-        {
-			if (!paused) {
-				SoundSystemScript.pauseMenuMusicStart = true;
-			}
-			paused = !paused;
+		//if(Input.GetKey(KeyCode.Escape) && delayToExit <= 0 && !PotMenu.activeSelf)
+  //      {
+		//	if (!paused) {
+		//		SoundSystemScript.pauseMenuMusicStart = true;
+		//	}
+		//	paused = !paused;
 
-			delayToExit = 0.5f;
-        }
+		//	delayToExit = 0.5f;
+  //      }
 
         if (paused)
         {

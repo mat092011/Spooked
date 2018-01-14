@@ -8,7 +8,7 @@ public class MovingPlatform : MonoBehaviour {
 	private float durOfMoveT = 0;
 	public float speed;
 	public Vector3 vectorOfMovement;
-	
+
 	void Update () {
 		if (durOfMoveT <= 0) {
 			durOfMoveT = durOfMove;

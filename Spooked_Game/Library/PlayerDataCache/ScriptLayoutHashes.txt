@@ -17,9 +17,10 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 9c6450168ea7c2c4c35dcdbfbf102703 Assembly-CSharp.dll:.TutorialSystem
-cd26d6e01d8b90a5eedcbdaf26b507b0 Assembly-CSharp.dll:.bulletScript
+cd26d6e01d8b90a5eedcbdaf26b507b0 Assembly-CSharp.dll:.EnemyBulletScript
 2b5bd81c259c691324a17af9a3e97e85 Assembly-CSharp.dll:.CameraMovement
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyWhenOutOfRange
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -116,7 +117,8 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 9d2092ce7a06ae5b786fda9df7c2f59a Assembly-CSharp.dll:.PPotScript
 fbd988a75e73ea035f27f50092fe1619 Assembly-CSharp.dll:.ActionScript
-8fdf3bdd965808c4e5bcae299dbdb1bf Assembly-CSharp.dll:.Jump
+c7fff5001bfb3c190b9be6905d5ea261 Assembly-CSharp.dll:.CauldronTriggerEnter
+85dd4de284ce6f6b1e21515f3e445f1c Assembly-CSharp.dll:.Jump
 033759e5101c2d40f46af6de0a606be7 Assembly-CSharp.dll:.Gallow
 9d2092ce7a06ae5b786fda9df7c2f59a Assembly-CSharp.dll:.BPotScript
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -127,10 +129,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 a4772a042fdc853b88669f1d721a11b4 Assembly-CSharp.dll:.Bugs_Cart
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceletonWallTrigger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TimeRenewScript
-4758df2d041113b310d5a8bb4fddd998 Assembly-CSharp.dll:.EnemyMovement
+694076368119388793ac5bc72e9dc163 Assembly-CSharp.dll:.SceletonMovement
+81defdb961e76c36cd7ccfc56e9deafd Assembly-CSharp.dll:.StarMovement
 438dbfb891e3d67152d87c331b63b94d Assembly-CSharp.dll:.Cotel
 eb2309ec1f13d883babb152500ad81a6 Assembly-CSharp.dll:.Bugs_Frog
-7d06c180fd319b04061e668890310207 Assembly-CSharp.dll:.InputDetection
+4899e9b9cf100a184c70acd6b9891fdf Assembly-CSharp.dll:.InputDetection
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NPCMovement
 e1be26a8eed602db18ae776294e10fc1 Assembly-CSharp.dll:.PlayerFireballScript
 f001200f7c0b3ded98f896db6d6d9f9e Assembly-CSharp.dll:.Cart_WallCollisionTrigger
@@ -151,13 +154,14 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+bfab642d552c7623b88598559b034192 Assembly-CSharp.dll:.MovingPlatform
 9c4d5c8ec8a190483dc7d452819ad5bd Assembly-CSharp.dll:.Bugs_Worm
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 057577ea976e99e2c38c5015e428b8c2 Assembly-CSharp.dll:.CharSpeedMov
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bugs_ButterFly
-57d0afdb5c3a49c507edf284ed612b49 Assembly-CSharp.dll:.SpawnSystemScript
+7e319f84d4f9d7f2b1615fc669c31b27 Assembly-CSharp.dll:.SpawnSystemScript
 f001200f7c0b3ded98f896db6d6d9f9e Assembly-CSharp.dll:.Cart_WallMoveTrigger
 b09b3b3778d06319f38c54edd9a01a16 Assembly-CSharp.dll:.PauseMenu
 9d2092ce7a06ae5b786fda9df7c2f59a Assembly-CSharp.dll:.GPotScript
@@ -172,5 +176,4 @@ e1be26a8eed602db18ae776294e10fc1 Assembly-CSharp.dll:.PlayerBulletScript
 c61cd40e14c36c17c7346fe089d48f8a Assembly-CSharp.dll:.RevealScript
 226767a94db50acbe2cae87acf18e3d0 Assembly-CSharp.dll:.SoundSystemScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bugs_Bee
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MovementButton
 c23a544aa766d6d3eaffb3f09ddf019d Assembly-CSharp.dll:.GateScript
