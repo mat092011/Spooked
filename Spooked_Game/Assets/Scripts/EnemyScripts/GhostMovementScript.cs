@@ -3,6 +3,8 @@ using System.Collections;
 
 public class GhostMovementScript : MonoBehaviour {
 
+	public GameObject DieAnim;
+
 	private Animator anim;
 	private GameObject Player;
 	private GameObject ghostZone;
@@ -136,6 +138,8 @@ public class GhostMovementScript : MonoBehaviour {
 
 		if (PlayerBulletScript.destroyEnemyAfterColision == true || PlayerFireballScript.destroyEnemyAfterColision == true) {
 			destroy = true;
+
+			Instantiate (DieAnim, gameObject.transform.position, Quaternion.identity);
 		}
 
 		if (destroy) {

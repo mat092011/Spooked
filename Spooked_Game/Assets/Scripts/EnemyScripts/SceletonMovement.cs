@@ -6,6 +6,7 @@ public class SceletonMovement : MonoBehaviour {
 	public GameObject[] deathAnim = new GameObject[4];
 	public GameObject BulletPos;
     public GameObject Bullet;
+	public GameObject EffHit;
 	public Rigidbody2D enemyPhysics;
 
 	public float moveSpeed = 10f;
@@ -108,6 +109,8 @@ public class SceletonMovement : MonoBehaviour {
 
 
 		if (destroyEnemyUnit) {
+
+			Instantiate (EffHit, gameObject.transform.position, Quaternion.identity);
 
 			for (int i = 0; i < 4; i++) {
 				GameObject Obj = Instantiate(deathAnim[i], gameObject.transform.position, Quaternion.identity);
