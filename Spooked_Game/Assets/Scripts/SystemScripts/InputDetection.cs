@@ -38,8 +38,8 @@ public class InputDetection : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (scared > 1f) {
-			scared = 1f;
+		if (scared > 1.5f) {
+			scared = 1.5f;
 		}
 
 		if (scared >= 0) {
@@ -48,13 +48,13 @@ public class InputDetection : MonoBehaviour {
 		scaredyness.fillAmount = scared;
 		
 
-		if (scaredyness.fillAmount > 0.7f && (fireP1 == null && fireP2 == null)) {
+		if (scaredyness.fillAmount > 1f && (fireP1 == null && fireP2 == null)) {
 			fireP1 = Instantiate(FireParticle, firePoint1.transform.position, Quaternion.LookRotation(new Vector3(0, -90, 0)));
 			fireP1.transform.parent = gameObject.transform;
 			fireP2 = Instantiate(FireParticle, firePoint2.transform.position, Quaternion.LookRotation(new Vector3(0, -90, 0)));
 			fireP2.transform.parent = gameObject.transform;
 		}
-		if (scaredyness.fillAmount < 0.7f && (fireP1 != null && fireP2 != null)) {
+		if (scaredyness.fillAmount < 1f && (fireP1 != null && fireP2 != null)) {
 			Destroy(fireP1);
 			Destroy(fireP2);
 		}
