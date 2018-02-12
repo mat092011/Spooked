@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b400cdabefbeae841a114e2a962190ef
-timeCreated: 1516133125
+timeCreated: 1518459135
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -84,6 +84,7 @@ TextureImporter:
     21300154: Atl2_77
     21300156: Atl2_78
     21300158: Atl2_79
+    21300160: Atl2_80
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -1278,6 +1279,20 @@ TextureImporter:
         height: 110
       alignment: 9
       pivot: {x: 0.47452152, y: 0.5585394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_80
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 1490
+        width: 186
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

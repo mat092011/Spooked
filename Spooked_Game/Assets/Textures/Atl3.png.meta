@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 70e45d4fc6db51b4a9c3e8cca136fd73
-timeCreated: 1517578453
+timeCreated: 1518458860
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -25,6 +25,8 @@ TextureImporter:
     21300036: Atl3_18
     21300038: Atl3_19
     21300040: Atl3_20
+    21300042: Atl3_21
+    21300044: Atl3_22
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -179,7 +181,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1540
         y: 1966
-        width: 7
+        width: 8
         height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -234,9 +236,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 1881
+        y: 1880
         width: 128
-        height: 88
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,9 +278,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1973
-        y: 1709
+        y: 1708
         width: 70
-        height: 220
+        height: 221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,20 +330,6 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Atl3_16
-      rect:
-        serializedVersion: 2
-        x: 183
-        y: 694
-        width: 153
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Atl3_17
       rect:
         serializedVersion: 2
@@ -349,20 +337,6 @@ TextureImporter:
         y: 682
         width: 165
         height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Atl3_18
-      rect:
-        serializedVersion: 2
-        x: 179
-        y: 460
-        width: 140
-        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,6 +365,62 @@ TextureImporter:
         y: 489
         width: 164
         height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl3_16
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1664
+        width: 106
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl3_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 419
+        width: 155
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl3_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 298
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl3_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 56
+        width: 140
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
