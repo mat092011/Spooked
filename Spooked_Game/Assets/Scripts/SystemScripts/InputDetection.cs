@@ -15,17 +15,25 @@ public class InputDetection : MonoBehaviour {
 	public GameObject firePoint1;
 	public GameObject firePoint2;
 	public GameObject FireParticle;
+	public GameObject Lcircle;
+	public GameObject Rcircle;
 
+	public Collider2D[] hitCol = new Collider2D[10];
 	public Collider2D ButtonLeft;
 	public Collider2D ButtonRight;
 	public Collider2D JumpButton;
 	public Collider2D Fire;
+	public Collider2D LCircle;
+	public Collider2D RCircle;
 
 	public SpriteRenderer[] renderers = new SpriteRenderer[4];
 	public Sprite spriteDefault;
 	public Sprite spriteChanged;
 
 	public GameObject Player;
+
+	public Text[] txt1 = new Text[5];
+
 
 	void Start () {
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
@@ -48,7 +56,7 @@ public class InputDetection : MonoBehaviour {
 		scaredyness.fillAmount = scared;
 		
 
-		if (scaredyness.fillAmount > 1f && (fireP1 == null && fireP2 == null)) {
+		if (scaredyness.fillAmount == 1f && (fireP1 == null && fireP2 == null)) {
 			fireP1 = Instantiate(FireParticle, firePoint1.transform.position, Quaternion.LookRotation(new Vector3(0, -90, 0)));
 			fireP1.transform.parent = gameObject.transform;
 			fireP2 = Instantiate(FireParticle, firePoint2.transform.position, Quaternion.LookRotation(new Vector3(0, -90, 0)));
@@ -61,64 +69,42 @@ public class InputDetection : MonoBehaviour {
 
 		InputFinger();
 
+		FingerCheck();
 	}
 
 	void InputFinger() {
+		for (int i = 0; i < 4; i++) {
+			if (hitCol[i] != null) {
+				txt1[i].text = hitCol[i].name;
+			} else {
+				txt1[i].text = "null";
+			}
+		}
+		txt1[4].text = Input.touchCount.ToString();
 		if (Input.touchCount > 0) {
 			for (int i = 0; i < Input.touchCount; i++) {
-				if (Input.GetTouch(i).phase == TouchPhase.Began) {
-					TouchPosition[i] = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
-					RaycastHit2D hit = Physics2D.Raycast(TouchPosition[i], new Vector2(TouchPosition[i].x + 0.01f, TouchPosition[i].y + 0.01f));
-					if (hit.collider == ButtonLeft) {
-						if (renderers[0].sprite != spriteChanged) {
-							renderers[0].sprite = spriteChanged;
-						}
-						if (Player.GetComponent<Movement>().left != true) {
-							Player.GetComponent<Movement>().left = true;
-						}
-					}
-					if (hit.collider == ButtonRight) {
-						if (renderers[1].sprite != spriteChanged) {
-							renderers[1].sprite = spriteChanged;
-						}
-						if (Player.GetComponent<Movement>().right != true) {
-							Player.GetComponent<Movement>().right = true;
-						}
-					}
-					if (hit.collider == Fire) {
-						if (renderers[3].sprite != spriteChanged) {
-							renderers[3].sprite = spriteChanged;
-						}
-						if (Player.GetComponent<ActionScript>().fire != true) {
-							Player.GetComponent<ActionScript>().fire = true;
-						}
-					}
-					if (hit.collider == JumpButton) {
-						if (renderers[2].sprite != spriteChanged) {
-							renderers[2].sprite = spriteChanged;
-						}
-						if (Jump.jump != true) {
-							Jump.jump = true;
-						}
-					}
-				}
+
+				TouchPosition[i] = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
+				RaycastHit2D hit = Physics2D.Raycast(TouchPosition[i], new Vector2(TouchPosition[i].x + 0.01f, TouchPosition[i].y + 0.01f));
+				hitCol[i] = hit.collider;
+
 				if (Input.GetTouch(i).phase == TouchPhase.Ended) {
-					for (int a = 0; a < 4; a++) {
-						renderers[a].sprite = spriteDefault;
-					}
-					if (Player.GetComponent<Movement>().left != false) {
-						Player.GetComponent<Movement>().left = false;
-					}
-					if (Player.GetComponent<Movement>().right != false) {
-						Player.GetComponent<Movement>().right = false;
-					}
-					if (Player.GetComponent<ActionScript>().fire != false) {
-						Player.GetComponent<ActionScript>().fire = false;
-					}
-					if (Jump.jump != false) {
-						Jump.jump = false;
-					}
+					hitCol[i] = null;
 				}
+			}
+		}
+	}
+
+	void FingerCheck() {
+		int a = 0;
+		for (int i = 0; i < hitCol.Length; i++) {
+			if (hitCol[i] != null) {
+				a++;
+			}
+		}
+		if (a > Input.touchCount) {
+			for (int i = hitCol.Length - Input.touchCount; i > 0; i--) {
+				hitCol[i - 1] = null;
 			}
 		}
 	}

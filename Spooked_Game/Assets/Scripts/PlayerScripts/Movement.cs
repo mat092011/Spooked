@@ -17,6 +17,7 @@ public class Movement : MonoBehaviour {
     public float protectionDur;
     public bool protection = false;
     public bool grounded;
+	public bool jumpAllowed;
     private float airSpeed;
     public static bool runSpeed;
     private bool facingRight = false;
@@ -45,12 +46,22 @@ public class Movement : MonoBehaviour {
         anim.SetBool("Grounded", grounded);         //anim
         anim.SetBool("RunSpeed", runSpeed);
 
+		if (playerPhysics.velocity.y == 0) {
+			if (jumpAllowed != true) {
+				jumpAllowed = true;
+			}
+		} else {
+			if (jumpAllowed != false) {
+				jumpAllowed = false;
+			}
+		}
+
 		if (runSpeed) {
 			runSpeed = false;
 		}
 
 		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || left) && !fail) {
-			if (grounded) {
+			if (grounded && jumpAllowed) {
 				airSpeed = 1;
 			} else { airSpeed = 0.10f; }
 			if (move > 0) {
@@ -61,7 +72,7 @@ public class Movement : MonoBehaviour {
 		}
 
 		if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || right) && !fail) {
-			if (grounded) {
+			if (grounded && jumpAllowed) {
 				airSpeed = 1;
 			} else { airSpeed = 0.10f; }
 			if (move < 0) {

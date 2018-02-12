@@ -20,7 +20,6 @@ c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 cd26d6e01d8b90a5eedcbdaf26b507b0 Assembly-CSharp.dll:.EnemyBulletScript
 2b5bd81c259c691324a17af9a3e97e85 Assembly-CSharp.dll:.CameraMovement
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DestroyWhenOutOfRange
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -99,7 +98,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 7b848b7feaa524953d09fc1851efa6da UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 650c1e412dac0323d37ae3023565f947 Assembly-CSharp.dll:.InGameUISpellDisplay
-24d706073eae8b53767e46b83e57062a Assembly-CSharp.dll:.Movement
+82edca32051bd6fbfcdff39ad2eb3cc0 Assembly-CSharp.dll:.Movement
 5d4f444074e61eaf1177ac526d9ecd3a Assembly-CSharp.dll:.TeleportToGame
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -118,6 +117,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 9d2092ce7a06ae5b786fda9df7c2f59a Assembly-CSharp.dll:.PPotScript
 fbd988a75e73ea035f27f50092fe1619 Assembly-CSharp.dll:.ActionScript
 c7fff5001bfb3c190b9be6905d5ea261 Assembly-CSharp.dll:.CauldronTriggerEnter
+975eab6fa5c118d8053a2cf1ec108b5b Assembly-CSharp.dll:.ConditionalDestroy
 85dd4de284ce6f6b1e21515f3e445f1c Assembly-CSharp.dll:.Jump
 033759e5101c2d40f46af6de0a606be7 Assembly-CSharp.dll:.Gallow
 9d2092ce7a06ae5b786fda9df7c2f59a Assembly-CSharp.dll:.BPotScript
@@ -129,11 +129,11 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 a4772a042fdc853b88669f1d721a11b4 Assembly-CSharp.dll:.Bugs_Cart
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceletonWallTrigger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TimeRenewScript
-694076368119388793ac5bc72e9dc163 Assembly-CSharp.dll:.SceletonMovement
+bcf5ab82d435661497888e295da1f73e Assembly-CSharp.dll:.SceletonMovement
 81defdb961e76c36cd7ccfc56e9deafd Assembly-CSharp.dll:.StarMovement
 438dbfb891e3d67152d87c331b63b94d Assembly-CSharp.dll:.Cotel
 eb2309ec1f13d883babb152500ad81a6 Assembly-CSharp.dll:.Bugs_Frog
-4899e9b9cf100a184c70acd6b9891fdf Assembly-CSharp.dll:.InputDetection
+cc50cf5ca7770bad12fadeb3515b9198 Assembly-CSharp.dll:.InputDetection
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.NPCMovement
 e1be26a8eed602db18ae776294e10fc1 Assembly-CSharp.dll:.PlayerFireballScript
 f001200f7c0b3ded98f896db6d6d9f9e Assembly-CSharp.dll:.Cart_WallCollisionTrigger
@@ -171,9 +171,10 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bugs_Base
-9c4d5c8ec8a190483dc7d452819ad5bd Assembly-CSharp.dll:.GhostMovementScript
+6e84eefa489e32e5c6504580642cb32b Assembly-CSharp.dll:.GhostMovementScript
 e1be26a8eed602db18ae776294e10fc1 Assembly-CSharp.dll:.PlayerBulletScript
 c61cd40e14c36c17c7346fe089d48f8a Assembly-CSharp.dll:.RevealScript
 226767a94db50acbe2cae87acf18e3d0 Assembly-CSharp.dll:.SoundSystemScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bugs_Bee
 c23a544aa766d6d3eaffb3f09ddf019d Assembly-CSharp.dll:.GateScript
+9a0a81be23e16d6807c8e0cc54da2a9c Assembly-CSharp.dll:.ButtonScript
