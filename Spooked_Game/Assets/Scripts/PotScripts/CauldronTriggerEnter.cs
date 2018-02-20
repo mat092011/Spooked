@@ -13,6 +13,8 @@ public class CauldronTriggerEnter : MonoBehaviour {
 	public GameObject Circle;
 	public GameObject SpawnPoint;
 
+	public GameObject Player;
+
 	void Start () {
 		
 	}

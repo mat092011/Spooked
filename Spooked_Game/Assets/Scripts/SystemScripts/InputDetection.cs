@@ -15,6 +15,8 @@ public class InputDetection : MonoBehaviour {
 	public GameObject firePoint1;
 	public GameObject firePoint2;
 	public GameObject FireParticle;
+
+	public GameObject pictogram;
 	public GameObject Lcircle;
 	public GameObject Rcircle;
 
@@ -25,6 +27,8 @@ public class InputDetection : MonoBehaviour {
 	public Collider2D Fire;
 	public Collider2D LCircle;
 	public Collider2D RCircle;
+	public Vector2 LCVector;
+	public Vector2 RCVector;
 
 	public SpriteRenderer[] renderers = new SpriteRenderer[4];
 	public Sprite spriteDefault;
@@ -34,6 +38,7 @@ public class InputDetection : MonoBehaviour {
 
 	public Text[] txt1 = new Text[5];
 
+	public int a = 0;
 
 	void Start () {
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
@@ -45,6 +50,12 @@ public class InputDetection : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (Input.GetKeyDown(KeyCode.I)) {
+			Vector2 vect = new Vector2(Lcircle.transform.position.x + 5 * Mathf.Cos(0.349066f * a), Lcircle.transform.position.y + 5 * Mathf.Sin(0.349066f * a));
+			Instantiate(pictogram, vect, Quaternion.identity);
+			a++;
+		}
 
 		if (scared > 1.5f) {
 			scared = 1.5f;
@@ -87,6 +98,26 @@ public class InputDetection : MonoBehaviour {
 				TouchPosition[i] = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);
 				RaycastHit2D hit = Physics2D.Raycast(TouchPosition[i], new Vector2(TouchPosition[i].x + 0.01f, TouchPosition[i].y + 0.01f));
 				hitCol[i] = hit.collider;
+
+				if (Input.GetTouch(i).phase == TouchPhase.Began) {
+					if (hitCol[i] == LCircle) {
+						LCVector = Input.GetTouch(i).position;
+					}
+					if (hitCol[i] == RCircle) {
+						RCVector = Input.GetTouch(i).position;
+					}
+				}
+
+				if (Input.GetTouch(i).phase == TouchPhase.Moved) {
+					if (hitCol[i] == LCircle) {
+						Vector2 vec = Input.GetTouch(i).deltaPosition;
+						Lcircle.transform.Rotate(new Vector3(0,0, vec.y/5));
+					}
+					if (hitCol[i] == RCircle) {
+						Vector2 vec = Input.GetTouch(i).deltaPosition;
+						Rcircle.transform.Rotate(new Vector3(0, 0, -vec.y/5));
+					}
+				}
 
 				if (Input.GetTouch(i).phase == TouchPhase.Ended) {
 					hitCol[i] = null;
