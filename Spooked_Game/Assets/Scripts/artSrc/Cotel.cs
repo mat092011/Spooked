@@ -18,6 +18,7 @@ public class Cotel : MonoBehaviour {
 	private Animator anim;
 	public int type;
 	public bool rainbow;
+	public static bool triggered = false;
 
 
     private float[] partAlphaSpeed = new float[10];
@@ -37,10 +38,23 @@ public class Cotel : MonoBehaviour {
 	}
 
 	void Update () {
+		if (triggered) {
+			if (isSleep) {
+				isSleep = false;
+				Swap(type);
+			}
+		} else {
+			if (!triggered) {
+				if (!isSleep) {
+					isSleep = true;
+					Swap(type);
+				}
+			}
+		}
+
         if (Light.activeSelf) {
             for (int i = 0; i < 10; i++) {
                 parts[i].transform.Translate(0, partSpeed[i],0 );
-                parts[i].transform.Rotate( Vector3.right * 10 * Time.deltaTime );
                 //parts[i].gameObject.GetComponent<SpriteRenderer>().color += new Color(255,255,255,-0.1f);
                 tmp = parts[i].gameObject.GetComponent<SpriteRenderer>().color;
                 tmp.a -= maxSpeed;
@@ -84,23 +98,23 @@ public class Cotel : MonoBehaviour {
         }
     }
 
-	void OnTriggerEnter2D(Collider2D col) {
-		if (col.gameObject.tag == "Player") {
-			isSleep = false;
-			Swap(type);
-		}
-	}
+	//void OnTriggerEnter2D(Collider2D col) {
+	//	if (col.gameObject.tag == "Player") {
+	//		isSleep = false;
+	//		Swap(type);
+	//	}
+	//}
 
-	void OnTriggerStay2D(Collider2D col) {
-		if (col.gameObject.tag == "Player" && isSleep) {
-			isSleep = false;
-		}
-	}
+	//void OnTriggerStay2D(Collider2D col) {
+	//	if (col.gameObject.tag == "Player" && isSleep) {
+	//		isSleep = false;
+	//	}
+	//}
 
-	void OnTriggerExit2D(Collider2D col) {
-		if (col.gameObject.tag == "Player") {
-			isSleep = true;
-			Swap(type);
-		}
-	}
+	//void OnTriggerExit2D(Collider2D col) {
+	//	if (col.gameObject.tag == "Player") {
+	//		isSleep = true;
+	//		Swap(type);
+	//	}
+	//}
 }

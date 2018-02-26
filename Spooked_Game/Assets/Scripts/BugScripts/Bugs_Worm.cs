@@ -59,12 +59,6 @@ public class Bugs_Worm : MonoBehaviour {
 	}
 
     void OnCollisionEnter2D(Collision2D col) {
-        if (col.gameObject.tag == "Player") {
-			SoundSystemScript.playBugCatchSound = true;
-			GameObject.Find("Player").GetComponent<Movement>().worms++;
-            SpawnSystemScript.bugExists--;
-            Destroy(gameObject);
-        }
         if (col.gameObject.tag == "PlayerBullet") {
             SpawnSystemScript.bugExists--;
             Destroy(gameObject);
@@ -89,7 +83,13 @@ public class Bugs_Worm : MonoBehaviour {
             delayStop = Random.Range(2.5f, 4f);
             vectorOfMovement = -vectorOfMovement;
         }
-    }
+		if (col.gameObject.tag == "Player") {
+			SoundSystemScript.playBugCatchSound = true;
+			GameObject.Find("Player").GetComponent<Movement>().worms++;
+			SpawnSystemScript.bugExists--;
+			Destroy(gameObject);
+		}
+	}
 
     void OnTriggerExit2D(Collider2D col) {
         if (col.gameObject.tag == "Area") {

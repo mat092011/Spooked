@@ -143,15 +143,15 @@ public class SceletonMovement : MonoBehaviour {
             airSpeed = 1;
             grounded = true;
         }
-        if (col.gameObject.tag == "Player") {
-            if (Enemy.transform.position.y > Player.transform.position.y) {
+		if (col.gameObject.tag == "Player") {
+			if (Enemy.transform.position.y > Player.transform.position.y) {
 				enemyPhysics.AddForce(new Vector2(0, 50) * jumpHeight);
 			}
-            FindPosition();
-            vector = -vector;
-            onCollisionWithPlayer = true;
-        }
-    }
+			FindPosition();
+			vector = -vector;
+			onCollisionWithPlayer = true;
+		}
+	}
 	void OnCollisionStay2D(Collision2D col) {
 		if (col.gameObject.tag == "Ground") {
 			airSpeed = 1;
@@ -162,7 +162,7 @@ public class SceletonMovement : MonoBehaviour {
         if (col.gameObject.tag == "Area") {
             destroyEnemyUnit = false;
         }
-    }
+	}
     void OnCollisionExit2D(Collision2D col) {
         if (col.gameObject.tag == "Ground") {
             airSpeed = 0.1f;

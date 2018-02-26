@@ -11,7 +11,7 @@ public class InputDetection : MonoBehaviour {
 
 	public GameObject TopPanel;
 	public Image scaredyness;
-	public static float scared = 1.0f;
+	public static float scared = 0f;
 	public GameObject firePoint1;
 	public GameObject firePoint2;
 	public GameObject FireParticle;

@@ -8,7 +8,6 @@ public class ActionScript : MonoBehaviour {
     public GameObject PlayerFireball;
     private GameObject Player;
     private Vector3 PlayerTransportPosition = new Vector3(0, 0);
-    private bool[] selectedSpell = new bool[10];
     private float delayToShoot = 0f;
 	public bool fire = false;
     public static bool playerBulletRelativePosition;

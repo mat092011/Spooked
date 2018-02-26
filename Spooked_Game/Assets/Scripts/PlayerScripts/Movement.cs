@@ -166,7 +166,7 @@ public class Movement : MonoBehaviour {
         }
     }
 
-    void Protection() {
+	void Protection() {
 		if (protectionDur > 0) {
 			protectionDur -= Time.deltaTime;
 		}else {

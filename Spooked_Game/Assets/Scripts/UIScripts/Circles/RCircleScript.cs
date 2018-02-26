@@ -29,9 +29,10 @@ public class RCircleScript : MonoBehaviour {
 				Destroy(tempObjects[i]);
 			}
 			for (int i = 0; i < formatedSpells.Length; i++) {
-				Vector2 vect = new Vector2(gameObject.transform.position.x + 5 * Mathf.Cos(0.349066f * i), gameObject.transform.position.y + 5 * Mathf.Sin(0.349066f * i));
+				Vector3 vect = new Vector3(gameObject.transform.position.x + 5 * Mathf.Cos(0.349066f * i), gameObject.transform.position.y + 5 * Mathf.Sin(0.349066f * i));
 				tempObjects[i] = Instantiate(Pictos[formatedSpells[i]], vect, Quaternion.identity);
 				tempObjects[i].transform.SetParent(gameObject.transform);
+				tempObjects[i].transform.position = new Vector3(tempObjects[i].transform.position.x, tempObjects[i].transform.position.y, -7);
 			}
 			a = 0;
 		}
@@ -74,6 +75,8 @@ public class RCircleScript : MonoBehaviour {
 
 	void FormatSpells() {
 		int a = 0;
+		int count = 0;
+		int left = 0;
 		for (int i = 0; i < spells.Length; i++) {
 			if (spells[i] != false) {
 				tempSpells[i - a] = i;
@@ -85,8 +88,10 @@ public class RCircleScript : MonoBehaviour {
 		for (int i = 0; i < temp.Length; i++) {
 			temp[i] = tempSpells[i];
 		}
-		int count = formatedSpells.Length / temp.Length;
-		int left = formatedSpells.Length % temp.Length;
+		if (temp.Length > 0) {
+			count = formatedSpells.Length / temp.Length;
+			left = formatedSpells.Length % temp.Length;
+		}
 		for (int i = 0; i < count; i++) {
 			for (int s = 0; s < temp.Length; s++) {
 				formatedSpells[s + (temp.Length * i)] = temp[s];

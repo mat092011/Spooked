@@ -15,11 +15,11 @@ public class Waterfall : MonoBehaviour {
 		if (durBetDrop > 0) {
 			durBetDrop -= Time.deltaTime;
 		} else {
-			durBetDrop = Random.Range(0.0f, 0.5f);
+			durBetDrop = Random.Range(0.0f, 1.4f);
 			GameObject DropPlace = new GameObject();
 			DropPlace.transform.position = new Vector2(Random.Range(LPos.transform.position.x, RPos.transform.position.x), LPos.transform.position.y);
 			GameObject DropTemp = Instantiate(Drop, DropPlace.transform.position, Quaternion.identity);
-			DropTemp.transform.position = new Vector3(DropTemp.transform.position.x, DropTemp.transform.position.y, 5);
+			DropTemp.transform.position = new Vector3(DropTemp.transform.position.x, DropTemp.transform.position.y, Random.Range(5f, 20f));
 			Destroy(DropPlace);
 		}
 	}

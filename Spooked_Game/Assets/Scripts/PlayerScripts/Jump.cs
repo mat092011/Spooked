@@ -8,6 +8,7 @@ public class Jump : MonoBehaviour {
     public float jumpHeight = 1000f;
     private Rigidbody2D playerPhysics;
 	public Vector2 vector;
+	private bool alJump;
 
     void Start () {
         playerPhysics = gameObject.GetComponent<Rigidbody2D>();
@@ -18,18 +19,16 @@ public class Jump : MonoBehaviour {
         {
             if (((Input.GetButtonDown("Jump") || jump) && GameObject.Find("Player").GetComponent<Movement>().jumpAllowed && !Movement.fail))
             {
+				alJump = true;
 				//StartCoroutine("JumpUp");            //jump???
-				playerPhysics.AddForce(vector * jumpHeight);
 			}
         }
     }
 
-    IEnumerator JumpUp()
-    {
-        for (int i = 100; i > 0; i--)
-        {
-            playerPhysics.AddForce(Vector2.up * jumpHeight * (i / 100));
-        }
-        yield return null;
-    }
+	void FixedUpdate() {
+		if (alJump) {
+			playerPhysics.AddForce(vector * jumpHeight, ForceMode2D.Impulse);
+			alJump = false;
+		}
+	}
 }
