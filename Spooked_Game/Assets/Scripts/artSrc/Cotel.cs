@@ -40,6 +40,7 @@ public class Cotel : MonoBehaviour {
         if (Light.activeSelf) {
             for (int i = 0; i < 10; i++) {
                 parts[i].transform.Translate(0, partSpeed[i],0 );
+                parts[i].transform.Rotate( Vector3.right * 10 * Time.deltaTime );
                 //parts[i].gameObject.GetComponent<SpriteRenderer>().color += new Color(255,255,255,-0.1f);
                 tmp = parts[i].gameObject.GetComponent<SpriteRenderer>().color;
                 tmp.a -= maxSpeed;

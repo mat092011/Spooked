@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b400cdabefbeae841a114e2a962190ef
-timeCreated: 1518459135
+timeCreated: 1519386250
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -85,6 +85,11 @@ TextureImporter:
     21300156: Atl2_78
     21300158: Atl2_79
     21300160: Atl2_80
+    21300162: Atl2_81
+    21300164: Atl2_82
+    21300166: Atl2_83
+    21300168: Atl2_84
+    21300170: Atl2_85
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -1291,6 +1296,62 @@ TextureImporter:
         y: 1490
         width: 186
         height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_81
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1456
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_82
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1732
+        width: 9
+        height: 14
+      alignment: 9
+      pivot: {x: 0.4587809, y: 0.87099785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_83
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1713
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.10581207, y: 0.18117142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_84
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1747
+        width: 61
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
