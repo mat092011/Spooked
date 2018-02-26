@@ -93,7 +93,7 @@ public class SceletonMovement : MonoBehaviour {
 			}
             enemyPhysics.AddForce(vector * moveSpeed * airSpeed);      //sceleton runs
         }
-        if (((Enemy.transform.position.y + 0.25 < Player.transform.position.y)) && grounded && !onCollisionWithPlayer) {
+        if (((Enemy.transform.position.y + 0.25 < Player.transform.position.y)) && grounded && !onCollisionWithPlayer && enemyPhysics.velocity.y == 0) {
 			enemyPhysics.AddForce(new Vector2(0, 50) * jumpHeight);
 		}
 		if (enemyPhysics.velocity.magnitude > 8.0f) {

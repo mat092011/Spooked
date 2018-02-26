@@ -136,10 +136,10 @@ public class Movement : MonoBehaviour {
                 delayAfterKnockBack -= Time.deltaTime;
                 if (delayAfterKnockBack > 0) {
                     if (playerPhysics.transform.position.x < tempEnemyPosition.x) {
-                        playerPhysics.AddForce(new Vector2(-1 * (moveSpeed + 40f), 1 * (moveSpeed + 5000f)) * Time.deltaTime);
+                        playerPhysics.AddForce(new Vector2(-1 * (moveSpeed + 40f), 1 * (moveSpeed + 500f)) * Time.deltaTime);
                     }
                     if (playerPhysics.transform.position.x > tempEnemyPosition.x) {
-                        playerPhysics.AddForce(new Vector2(1 * (moveSpeed + 40f), 1 * (moveSpeed + 5000f)) * Time.deltaTime);
+                        playerPhysics.AddForce(new Vector2(1 * (moveSpeed + 40f), 1 * (moveSpeed + 500f)) * Time.deltaTime);
                     }
                 }
                 if (delayAfterFail <= 0) {

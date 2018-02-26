@@ -15,7 +15,7 @@ public class MovingPlatform : MonoBehaviour {
 			vectorOfMovement = -vectorOfMovement;
 		} else {
 			durOfMoveT -= Time.deltaTime;
-			gameObject.transform.position = Vector2.MoveTowards(transform.position, transform.position + vectorOfMovement, speed * Time.deltaTime);
+			gameObject.transform.position = Vector3.MoveTowards(transform.position, transform.position + vectorOfMovement, speed * Time.deltaTime);
 		}
 	}
 }

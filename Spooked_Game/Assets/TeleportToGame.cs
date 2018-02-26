@@ -19,7 +19,6 @@ public class TeleportToGame : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collision) {
 		if (collision.gameObject == Player) {
-			Clock.GetComponent<Clock>().time = 300f;
 			Player.GetComponent<Movement>().worms = 0;
 			Player.GetComponent<ActionScript>().lightning = 0;
 			Player.transform.localPosition = ToGamePoint.transform.position;

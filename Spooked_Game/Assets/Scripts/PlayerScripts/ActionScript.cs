@@ -37,7 +37,6 @@ public class ActionScript : MonoBehaviour {
         else { playerBulletRelativePosition = false; }
         if ((Input.GetKey(KeyCode.F) || fire) && !Movement.fail)
         {
-            selectedSpell = InGameUISpellDisplay.selectedSpell;
             //if (delayToShoot <= 0.0f && lightning > 0)
             //{
             //    Instantiate(PlayerBullet, PlayerBulletPosition.transform.position, Quaternion.identity);
@@ -49,25 +48,25 @@ public class ActionScript : MonoBehaviour {
 				fireball--;
                 delayToShoot = 0.5f;
             }
-            if (delayToShoot <= 0.0f && stun > 0 && selectedSpell[3] == true)
+            if (delayToShoot <= 0.0f && stun > 0)
             {
 
             }
-            if (delayToShoot <= 0.0f && changeling > 0 && selectedSpell[4] == true)
+            if (delayToShoot <= 0.0f && changeling > 0)
             {
 
             }
-            if (delayToShoot <= 0.0f && letterSpell > 0 && selectedSpell[5] == true)
+            if (delayToShoot <= 0.0f && letterSpell > 0)
             {
 
             }
-            if (delayToShoot <= 0.0f && protectionSpell > 0 && selectedSpell[6] == true)
+            if (delayToShoot <= 0.0f && protectionSpell > 0)
             {
                 Player.GetComponent<Movement>().protection = true;
                 Player.GetComponent<Movement>().protectionDur = 35.0f;
                 delayToShoot = 0.5f;
             }
-            if (delayToShoot <= 0.0f && transportSpell > 0 && selectedSpell[7] == true)
+            if (delayToShoot <= 0.0f && transportSpell > 0)
             {
                 if (PlayerTransportPosition == new Vector3(0,0))
                 {
@@ -83,15 +82,15 @@ public class ActionScript : MonoBehaviour {
                     delayToShoot = 0.5f;
                 }
             }
-            if (delayToShoot <= 0.0f && revealSpell > 0 && selectedSpell[8] == true)
+            if (delayToShoot <= 0.0f && revealSpell > 0)
             {
 
             }
-            if (delayToShoot <= 0.0f && freezeSpell > 0 && selectedSpell[9] == true)
+            if (delayToShoot <= 0.0f && freezeSpell > 0)
             {
 
             }
-            if (delayToShoot <= 0.0f && hallucinateSpell > 0 && selectedSpell[10] == true)
+            if (delayToShoot <= 0.0f && hallucinateSpell > 0)
             {
 
             }
