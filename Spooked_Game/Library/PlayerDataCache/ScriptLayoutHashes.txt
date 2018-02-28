@@ -163,6 +163,7 @@ bfab642d552c7623b88598559b034192 Assembly-CSharp.dll:.MovingPlatform
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 057577ea976e99e2c38c5015e428b8c2 Assembly-CSharp.dll:.CharSpeedMov
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bugs_ButterFly
+4a4fa9ba4693d059a172d23e728ffe10 Assembly-CSharp.dll:.BackGroundOpacity
 7e319f84d4f9d7f2b1615fc669c31b27 Assembly-CSharp.dll:.SpawnSystemScript
 f001200f7c0b3ded98f896db6d6d9f9e Assembly-CSharp.dll:.Cart_WallMoveTrigger
 b09b3b3778d06319f38c54edd9a01a16 Assembly-CSharp.dll:.PauseMenu
@@ -178,5 +179,6 @@ e1be26a8eed602db18ae776294e10fc1 Assembly-CSharp.dll:.PlayerBulletScript
 c61cd40e14c36c17c7346fe089d48f8a Assembly-CSharp.dll:.RevealScript
 226767a94db50acbe2cae87acf18e3d0 Assembly-CSharp.dll:.SoundSystemScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Bugs_Bee
+c250c7be687b68de305b28819271c669 Assembly-CSharp.dll:.Stars
 c23a544aa766d6d3eaffb3f09ddf019d Assembly-CSharp.dll:.GateScript
 9a0a81be23e16d6807c8e0cc54da2a9c Assembly-CSharp.dll:.ButtonScript
