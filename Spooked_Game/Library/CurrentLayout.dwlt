@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 121
+  controlID: 10
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,16 +201,16 @@ MonoBehaviour:
     y: 0
     width: 1151
     height: 564
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,10 +306,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -319,18 +319,18 @@ MonoBehaviour:
       y: 17
       width: 1147
       height: 526
-    m_Scale: {x: 0.487037, y: 0.48703703}
-    m_Translation: {x: 573.5, y: 263}
+    m_Scale: {x: 1.1592739, y: 1.1592739}
+    m_Translation: {x: 683.2035, y: 106.28765}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1177.5286
-      y: -540
-      width: 2355.0571
-      height: 1080
+      x: -589.33746
+      y: -91.68468
+      width: 989.4125
+      height: 453.7323
     m_MinimalGUI: 1
   m_defaultScale: 0.48703703
   m_TargetTexture: {fileID: 0}
@@ -367,9 +367,9 @@ MonoBehaviour:
     height: 543
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e883ffff
-    m_LastClickedID: -31768
-    m_ExpandedIDs: 1afcffff000000002c88000050b70000
+    m_SelectedIDs: e29a0100
+    m_LastClickedID: 105186
+    m_ExpandedIDs: 42a2ffff16fcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -424,9 +424,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 7.0300016, y: 0.10395874, z: 0}
+    m_Target: {x: 9.023084, y: 1.0467966, z: 0}
     speed: 2
-    m_Value: {x: 7.0300016, y: 0.10395874, z: 0}
+    m_Value: {x: 9.023084, y: 1.0467966, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -453,9 +453,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 3.4437926
+    m_Target: 33.183506
     speed: 2
-    m_Value: 3.4437926
+    m_Value: 33.183506
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -576,19 +576,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Clock
+    - Assets/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Clock
+  - Assets/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\ExChange\Spooked\GitHub\Spooked\Spooked_Game
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 279}
-    m_SelectedIDs: 5a2b0000
-    m_LastClickedID: 11098
-    m_ExpandedIDs: 000000009e260000f22700000e2800001028000074280000d0280000722a0000542d000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 459}
+    m_SelectedIDs: 7c280000
+    m_LastClickedID: 10364
+    m_ExpandedIDs: 00000000a8260000fc27000016280000182800007c280000d82800007a2a00005e2d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -616,7 +616,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e260000f22700000e2800001028000074280000d0280000722a0000542d0000
+    m_ExpandedIDs: 00000000a8260000fc27000016280000182800007c280000d82800007a2a00005e2d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -644,7 +644,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000ec2a000000000000262a0000322a0000e82b0000ec2b0000f02b00002c330000682a0000fe2b0000002c00000e2c0000a8280000182c00005a2c0000
+    m_ExpandedInstanceIDs: c6230000ec2a000000000000262a0000322a0000e82b0000ec2b0000f02b00002c330000682a0000fe2b00000e2c0000a8280000182c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
