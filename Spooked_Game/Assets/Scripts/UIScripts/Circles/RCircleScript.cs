@@ -24,7 +24,7 @@ public class RCircleScript : MonoBehaviour {
 
 		CheckSpell();
 
-		if (CheckArray() > 0 || spells[0]) {
+		if (CheckArray() > 0 || ((spells[0]) && tempObjects[0] == null)) {
 			for (int i = 0; i < tempObjects.Length; i++) {
 				Destroy(tempObjects[i]);
 			}
@@ -37,7 +37,24 @@ public class RCircleScript : MonoBehaviour {
 			a = 0;
 		}
 
+		ConditionDestroy();
+
 		FormatSpells();
+	}
+
+	void ConditionDestroy() {
+		int b = 0;
+
+		for (int i = 0; i < spells.Length; i++) {
+			if (spells[i]) {
+				b++;
+			}
+		}
+		if (b == 0 && tempObjects[0] != null) {
+			for (int i = 0; i < tempObjects.Length; i++) {
+				Destroy(tempObjects[i]);
+			}
+		}
 	}
 
 	int CheckArray() {					// repair
