@@ -145,12 +145,14 @@ public class Bugs_Grasshopper : MonoBehaviour
         {
             delayStop = Random.Range(2.5f, 4f);
         }
-        if (col.gameObject.tag == "PlayerBullet")
-        {
-            GameObject.FindGameObjectWithTag("PlayerBullet").GetComponent<PlayerBulletScript>().destroy = true;
-            SpawnSystemScript.bugExists--;
-            Destroy(gameObject);
-        }
+   //     if (col.gameObject.tag == "PlayerBullet")
+   //     {
+			//if (GameObject.FindGameObjectWithTag("PlayerBullet") != null) {
+			//	GameObject.FindGameObjectWithTag("PlayerBullet").GetComponent<PlayerBulletScript>().destroy = true;
+			//}
+   //         SpawnSystemScript.bugExists--;
+   //         Destroy(gameObject);
+   //     }
     }
 
     void OnTriggerExit2D(Collider2D col)

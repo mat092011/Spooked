@@ -162,6 +162,9 @@ public class SceletonMovement : MonoBehaviour {
         if (col.gameObject.tag == "Area") {
             destroyEnemyUnit = false;
         }
+		if (col.gameObject.tag == "PlayerBullet") {
+			destroyEnemyUnit = true;
+		}
 	}
     void OnCollisionExit2D(Collision2D col) {
         if (col.gameObject.tag == "Ground") {

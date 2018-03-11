@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class ActionScript : MonoBehaviour {
 
@@ -21,14 +22,18 @@ public class ActionScript : MonoBehaviour {
     public int revealSpell;
     public int freezeSpell;
     public int hallucinateSpell;
+	public bool[] active = new bool[10];
+	public Image Clock;
 
     void Start ()
     {
+		active[0] = true;
         Player = GameObject.FindGameObjectWithTag("Player");
     }
 	
 	void FixedUpdate ()
     {
+
         if (PlayerBulletPosition.transform.position.x > Player.transform.position.x)
         {
             playerBulletRelativePosition = true;
@@ -36,12 +41,11 @@ public class ActionScript : MonoBehaviour {
         else { playerBulletRelativePosition = false; }
         if ((Input.GetKey(KeyCode.F) || fire) && !Movement.fail)
         {
-            //if (delayToShoot <= 0.0f && lightning > 0)
-            //{
-            //    Instantiate(PlayerBullet, PlayerBulletPosition.transform.position, Quaternion.identity);
-            //    delayToShoot = 0.5f;
-            //}
-            if (delayToShoot <= 0.0f && fireball > 0)
+			if (delayToShoot <= 0.0f && lightning > 0 && active[0]) {
+				Instantiate(PlayerBullet, PlayerBulletPosition.transform.position, Quaternion.identity);
+				delayToShoot = 0.5f;
+			}
+			if (delayToShoot <= 0.0f && fireball > 0 && active[1])
             {
                 Instantiate(PlayerFireball, PlayerBulletPosition.transform.position, Quaternion.identity);
 				fireball--;
@@ -96,8 +100,10 @@ public class ActionScript : MonoBehaviour {
         }
     }
 
-    void Update()
-    {
+    void Update() {
+		if (Clock.fillAmount > 0) {
+			Clock.fillAmount -= Time.deltaTime / 300;
+		}
         delayToShoot -= Time.deltaTime;
     }
 }

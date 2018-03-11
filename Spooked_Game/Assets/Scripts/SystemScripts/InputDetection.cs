@@ -51,12 +51,6 @@ public class InputDetection : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetKeyDown(KeyCode.I)) {
-			Vector2 vect = new Vector2(Lcircle.transform.position.x + 5 * Mathf.Cos(0.349066f * a), Lcircle.transform.position.y + 5 * Mathf.Sin(0.349066f * a));
-			Instantiate(pictogram, vect, Quaternion.identity);
-			a++;
-		}
-
 		if (scared > 1.5f) {
 			scared = 1.5f;
 		}

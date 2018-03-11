@@ -1,4 +1,4 @@
-WindowsStandalone
+Android
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GroundTriggerScript
 9d2092ce7a06ae5b786fda9df7c2f59a Assembly-CSharp.dll:.YPotScript
 fa29b836b4db41c0199f3a623982bc58 Assembly-CSharp.dll:.PortalScript
@@ -19,6 +19,7 @@ c24a21b131bfa67be1162db2cba4b52b UnityEngine.Timeline.dll:UnityEngine.Timeline.T
 cd26d6e01d8b90a5eedcbdaf26b507b0 Assembly-CSharp.dll:.EnemyBulletScript
 2b5bd81c259c691324a17af9a3e97e85 Assembly-CSharp.dll:.CameraMovement
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MainMenu
+7a75edc83a9f267c790ac1425865847a Assembly-CSharp.dll:.CauldronRecepiesActivate
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -115,8 +116,8 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 9d2092ce7a06ae5b786fda9df7c2f59a Assembly-CSharp.dll:.PPotScript
-fbd988a75e73ea035f27f50092fe1619 Assembly-CSharp.dll:.ActionScript
-3fa3b84d225ea9a0054d366f9f9b460b Assembly-CSharp.dll:.CauldronTriggerEnter
+f905619262fc0459f040c3599445528c Assembly-CSharp.dll:.ActionScript
+a90f934fb7c13e3b6575e8c992cc8050 Assembly-CSharp.dll:.CauldronTriggerEnter
 975eab6fa5c118d8053a2cf1ec108b5b Assembly-CSharp.dll:.ConditionalDestroy
 85dd4de284ce6f6b1e21515f3e445f1c Assembly-CSharp.dll:.Jump
 033759e5101c2d40f46af6de0a606be7 Assembly-CSharp.dll:.Gallow
@@ -129,7 +130,8 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 a4772a042fdc853b88669f1d721a11b4 Assembly-CSharp.dll:.Bugs_Cart
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SceletonWallTrigger
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TimeRenewScript
-786c9b2d30ec662a57d633e68f27c8a0 Assembly-CSharp.dll:.RCircleScript
+389f69572a1bd0668c4a36b457201205 Assembly-CSharp.dll:.TpPart1
+b289a36ab21a4c93fe4aa3d227a73995 Assembly-CSharp.dll:.RCircleScript
 bcf5ab82d435661497888e295da1f73e Assembly-CSharp.dll:.SceletonMovement
 81defdb961e76c36cd7ccfc56e9deafd Assembly-CSharp.dll:.StarMovement
 d8cd520210aabcd5ece7729359fedc16 Assembly-CSharp.dll:.InstObjByTime

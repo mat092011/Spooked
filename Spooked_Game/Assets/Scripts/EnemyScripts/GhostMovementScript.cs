@@ -181,6 +181,11 @@ public class GhostMovementScript : MonoBehaviour {
 		if (col.gameObject == Player) {
 			onCollisionWithPlayer = true;
 		}
+		if (col.gameObject.tag == "PlayerBullet") {
+			destroy = true;
+
+			Instantiate(DieAnim, gameObject.transform.position, Quaternion.identity);
+		}
 		if (col.gameObject == ghostZone) {
 			if (!attack) {
 				attack = true;

@@ -47,7 +47,8 @@ public class PlayerBulletScript : MonoBehaviour {
     {
         if (col.gameObject.tag == "Enemy")
         {
-            destroyEnemyAfterColision = true;
+			InputDetection.scared += 0.3f;
+			destroyEnemyAfterColision = true;
             Destroy(PlayerBul);                           //destroy after hitting player
         }
     }

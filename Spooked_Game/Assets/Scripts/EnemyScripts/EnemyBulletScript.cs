@@ -45,7 +45,8 @@ public class EnemyBulletScript : MonoBehaviour {
 			}
             Destroy(Bul);                           //destroy after hitting player
         }
-    }
+		Destroy(gameObject);
+	}
 
     void Flip()
     {
