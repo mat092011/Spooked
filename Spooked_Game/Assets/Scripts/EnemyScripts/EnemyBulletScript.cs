@@ -39,7 +39,8 @@ public class EnemyBulletScript : MonoBehaviour {
         {
             if (!GameObject.Find("Player").GetComponent<Movement>().protection)
             {
-                fail = true;
+				GameObject.Find("Player").GetComponent<ActionScript>().Clock.fillAmount -= 50f / 300f;
+				fail = true;
 				SceletonMovement.sceletonBulletScoreValue = true;
 				//GameObject.Find("Clock").GetComponent<Clock>().time -= 100f;		MUST BE FIXED!!!
 			}

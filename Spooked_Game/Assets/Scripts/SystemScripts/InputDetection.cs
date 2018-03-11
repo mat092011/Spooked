@@ -74,7 +74,7 @@ public class InputDetection : MonoBehaviour {
 
 		InputFinger();
 
-		FingerCheck();
+		//FingerCheck();
 	}
 
 	void InputFinger() {
@@ -87,6 +87,10 @@ public class InputDetection : MonoBehaviour {
 		}
 		txt1[4].text = Input.touchCount.ToString();
 		if (Input.touchCount > 0) {
+			//if (Input.GetMouseButton(0)) {
+			//	RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Camera.main.ScreenToWorldPoint(Input.mousePosition));
+			//	hitCol[0] = hit.collider;
+			//}
 			for (int i = 0; i < Input.touchCount; i++) {
 
 				TouchPosition[i] = Camera.main.ScreenToWorldPoint(Input.GetTouch(i).position);

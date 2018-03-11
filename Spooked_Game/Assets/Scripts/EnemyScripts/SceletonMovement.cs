@@ -147,6 +147,7 @@ public class SceletonMovement : MonoBehaviour {
 			if (Enemy.transform.position.y > Player.transform.position.y) {
 				enemyPhysics.AddForce(new Vector2(0, 50) * jumpHeight);
 			}
+			Player.GetComponent<ActionScript>().Clock.fillAmount -= 50f / 300f;
 			FindPosition();
 			vector = -vector;
 			onCollisionWithPlayer = true;
@@ -163,7 +164,7 @@ public class SceletonMovement : MonoBehaviour {
             destroyEnemyUnit = false;
         }
 		if (col.gameObject.tag == "PlayerBullet") {
-			destroyEnemyUnit = true;
+			onCollisionWithPlayer = true;
 		}
 	}
     void OnCollisionExit2D(Collision2D col) {

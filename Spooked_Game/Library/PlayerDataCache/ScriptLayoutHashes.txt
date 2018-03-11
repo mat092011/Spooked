@@ -1,4 +1,4 @@
-Android
+WindowsStandalone
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GroundTriggerScript
 9d2092ce7a06ae5b786fda9df7c2f59a Assembly-CSharp.dll:.YPotScript
 fa29b836b4db41c0199f3a623982bc58 Assembly-CSharp.dll:.PortalScript
