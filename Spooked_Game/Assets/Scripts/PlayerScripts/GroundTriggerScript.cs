@@ -4,31 +4,33 @@ using UnityEngine;
 
 public class GroundTriggerScript : MonoBehaviour {
 
-    void Update () {
-		
+	private GameObject Player;
+
+	void Start() {
+		Player = GameObject.Find("Player");
 	}
 
-    void OnTriggerEnter2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Ground")
-        {
-            GameObject.Find("Player").GetComponent<Movement>().grounded = true;
+    void OnTriggerEnter2D(Collider2D col) {
+        if (col.gameObject.tag == "Ground") {
+			if (Player.activeSelf) {
+				Player.GetComponent<Movement>().grounded = true;
+			}
         }
     }
 
-    void OnTriggerStay2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Ground")
-        {
-            GameObject.Find("Player").GetComponent<Movement>().grounded = true;
-        }
+    void OnTriggerStay2D(Collider2D col) {
+        if (col.gameObject.tag == "Ground") {
+			if (Player.activeSelf) {
+				Player.GetComponent<Movement>().grounded = true;
+			}
+		}
     }
 
-    void OnTriggerExit2D(Collider2D col)
-    {
-        if (col.gameObject.tag == "Ground")
-        {
-            GameObject.Find("Player").GetComponent<Movement>().grounded = false;
-        }
+    void OnTriggerExit2D(Collider2D col) {
+        if (col.gameObject.tag == "Ground") {
+			if (Player.activeSelf) {
+				Player.GetComponent<Movement>().grounded = false;
+			}
+		}
     }
 }

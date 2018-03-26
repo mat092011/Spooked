@@ -39,7 +39,7 @@ public class ActionScript : MonoBehaviour {
             playerBulletRelativePosition = true;
         }
         else { playerBulletRelativePosition = false; }
-        if ((Input.GetKey(KeyCode.F) || fire) && !Movement.fail)
+        if ((Input.GetKey(KeyCode.F) || fire || Input.GetButton("Fire1")) && !Movement.fail)
         {
 			if (delayToShoot <= 0.0f && lightning > 0 && active[0]) {
 				Instantiate(PlayerBullet, PlayerBulletPosition.transform.position, Quaternion.identity);

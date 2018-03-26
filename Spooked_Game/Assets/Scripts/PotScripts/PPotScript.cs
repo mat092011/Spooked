@@ -17,7 +17,6 @@ public class PPotScript : MonoBehaviour {
     private GameObject[] objectDestroy = new GameObject[7];
     private int[] activeRec = new int[7];
     private GameObject Player;
-	public GameObject PotMenu;
 	public GameObject ReceptPlace1;
 	public GameObject ReceptPlace2;
 	public GameObject ReceptPlace3;
@@ -36,7 +35,6 @@ public class PPotScript : MonoBehaviour {
 	void Start()
 	{
 		Player = GameObject.FindGameObjectWithTag("Player");
-		PotMenu.SetActive(false);
 	}
 
     void Update()
@@ -86,7 +84,6 @@ public class PPotScript : MonoBehaviour {
 			SoundSystemScript.potEnterSound = true;
 			RecipeDraw ();
 			menuActive = true;
-			PotMenu.SetActive (true);
 			Time.timeScale = 0;
 		}
 	}
@@ -155,7 +152,6 @@ public class PPotScript : MonoBehaviour {
         {
             Destroy(objectDestroy[i]);
         }
-        PotMenu.SetActive(false);
 		Time.timeScale = 1;
 		menuActive = false;
 	}
@@ -197,7 +193,6 @@ public class PPotScript : MonoBehaviour {
             {
                 GameObject clone;
                 clone = Instantiate(recepts[i], receptsPlaces[i - emptySpace].transform.localPosition, Quaternion.identity);
-                clone.transform.SetParent(PotMenu.transform, false);
 				objectDestroy[i - emptySpace] = clone;
                 activeRec[i - emptySpace] = i + 1;
             }
@@ -229,7 +224,6 @@ public class PPotScript : MonoBehaviour {
 		}
 		GameObject exit;
 		exit = Instantiate (recepts [6], receptsPlaces[6 - emptySpace].transform.localPosition, Quaternion.identity);
-		exit.transform.SetParent(PotMenu.transform, false);
 
 		objectDestroy[6 - emptySpace] = exit;
     }

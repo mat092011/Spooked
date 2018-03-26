@@ -17,7 +17,7 @@ public class Jump : MonoBehaviour {
 	void Update () {
         if (GameObject.Find("Player").GetComponent<Movement>().grounded)
         {
-            if (((Input.GetButtonDown("Jump") || jump) && GameObject.Find("Player").GetComponent<Movement>().jumpAllowed && !Movement.fail))
+            if (((Input.GetButton("Jump") || jump) && GameObject.Find("Player").GetComponent<Movement>().jumpAllowed && !Movement.fail))
             {
 				alJump = true;
 				//StartCoroutine("JumpUp");            //jump???

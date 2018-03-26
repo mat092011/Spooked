@@ -82,7 +82,7 @@ public class CauldronTriggerEnter : MonoBehaviour {
 	}
 
 	void OnCollisionStay2D(Collision2D collision) {
-		GameObject Player = GameObject.Find("Player");
+		GameObject Player = GameObject.FindGameObjectWithTag("Player");
 		if (collision.gameObject == Player && !spawned && Player.GetComponent<Movement>().jumpAllowed) {
 			if (temp == null) {
 				temp = Instantiate(Circle, SpawnPoint.transform.position, Quaternion.identity);
@@ -94,7 +94,7 @@ public class CauldronTriggerEnter : MonoBehaviour {
 	}
 
 	void OnCollisionExit2D(Collision2D collision) {
-		if (collision.gameObject == GameObject.Find("Player") && spawned) {
+		if (collision.gameObject == GameObject.FindGameObjectWithTag("Player") && spawned) {
 			spawned = false;
 			Cotel.triggered = false;
 		}

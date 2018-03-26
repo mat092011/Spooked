@@ -60,7 +60,7 @@ public class Movement : MonoBehaviour {
 			runSpeed = false;
 		}
 
-		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || left) && !fail) {
+		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) || left || Input.GetButton("Left")) && !fail) {
 			if (grounded && jumpAllowed) {
 				airSpeed = 1;
 			} else { airSpeed = 0.10f; }
@@ -71,7 +71,7 @@ public class Movement : MonoBehaviour {
 			runSpeed = true;
 		}
 
-		if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || right) && !fail) {
+		if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) || right || Input.GetButton("Right")) && !fail) {
 			if (grounded && jumpAllowed) {
 				airSpeed = 1;
 			} else { airSpeed = 0.10f; }

@@ -51,6 +51,10 @@ public class InputDetection : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+		if (Input.GetButton("Change") || Input.GetKey(KeyCode.R)) {
+			Rcircle.transform.Rotate (new Vector3(Lcircle.transform.rotation.x, Lcircle.transform.rotation.y, Lcircle.transform.rotation.z + 20));
+		}
+
 		if (scared > 1.5f) {
 			scared = 1.5f;
 		}
@@ -86,6 +90,10 @@ public class InputDetection : MonoBehaviour {
 			}
 		}
 		txt1[4].text = Input.touchCount.ToString();
+		if (Input.GetMouseButton(0)) {
+			RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Camera.main.ScreenToWorldPoint(Input.mousePosition));
+			hitCol[0] = hit.collider;
+		}
 		if (Input.touchCount > 0) {
 			//if (Input.GetMouseButton(0)) {
 			//	RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Camera.main.ScreenToWorldPoint(Input.mousePosition));

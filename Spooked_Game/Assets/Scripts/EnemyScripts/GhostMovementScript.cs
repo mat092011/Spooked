@@ -180,7 +180,6 @@ public class GhostMovementScript : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col) {
 		if (col.gameObject == Player) {
 			onCollisionWithPlayer = true;
-			Player.GetComponent<ActionScript>().Clock.fillAmount -= 50f / 300f;
 		}
 		if (col.gameObject.tag == "PlayerBullet") {
 			destroy = true;
