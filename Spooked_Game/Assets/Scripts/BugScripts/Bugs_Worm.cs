@@ -58,28 +58,11 @@ public class Bugs_Worm : MonoBehaviour {
 		}
 	}
 
-    void OnCollisionEnter2D(Collision2D col) {
-        if (col.gameObject.tag == "PlayerBullet") {
-            SpawnSystemScript.bugExists--;
-            Destroy(gameObject);
-        }
-        if (col.gameObject.tag == "Enemy") {
-            Enemy = GameObject.FindGameObjectWithTag("Enemy");
-            Physics2D.IgnoreCollision(Enemy.GetComponent<Collider2D>(), gameObject.GetComponent<Collider2D>(), true);
-        }
+	void OnTriggerEnter2D(Collider2D col) {
 		if (col.gameObject.tag == "Ground") {
 			airSpeed = 1;
 		}
-    }
-
-	void OnCollisionExit2D(Collision2D col) {
-		if (col.gameObject.tag == "Ground") {
-			airSpeed = 0;
-		}
-	}
-
-	void OnTriggerEnter2D(Collider2D col) {
-        if (col.gameObject.tag == "BugArea") {
+		if (col.gameObject.tag == "BugArea") {
             delayStop = Random.Range(2.5f, 4f);
             vectorOfMovement = -vectorOfMovement;
         }
@@ -91,12 +74,23 @@ public class Bugs_Worm : MonoBehaviour {
 		}
 	}
 
-    void OnTriggerExit2D(Collider2D col) {
+	void OnTriggerStay2D(Collider2D col) {
+		if (col.gameObject.tag == "Ground") {
+			if (airSpeed != 1) {
+				airSpeed = 1;
+			}
+		}
+	}
+
+	void OnTriggerExit2D(Collider2D col) {
         if (col.gameObject.tag == "Area") {
             SpawnSystemScript.bugExists--;
             Destroy(gameObject);
         }
-    }
+		if (col.gameObject.tag == "Ground") {
+			airSpeed = 0;
+		}
+	}
 
     void RandomVector() {
         int vectorSide;
