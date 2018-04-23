@@ -1,6 +1,10 @@
 fileFormatVersion: 2
 guid: 957409787fb5c1948abe95dbc7ea2b99
+<<<<<<< HEAD
 timeCreated: 1523879077
+=======
+timeCreated: 1524072056
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,6 +20,7 @@ TextureImporter:
     21300018: Atl4_9
     21300020: Atl4_10
     21300022: Atl4_11
+<<<<<<< HEAD
     21300024: Atl4_12
     21300026: Atl4_13
     21300028: Atl4_14
@@ -24,6 +29,8 @@ TextureImporter:
     21300034: Atl4_17
     21300036: Atl4_18
     21300038: Atl4_19
+=======
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -107,12 +114,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+<<<<<<< HEAD
         y: 1880
         width: 168
         height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 20, y: 15, z: 18, w: 19}
+=======
+        y: 1876
+        width: 171
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 171, w: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -120,12 +136,21 @@ TextureImporter:
       name: Atl4_1
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 174
         y: 1880
         width: 168
         height: 168
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 171
+        y: 1879
+        width: 174
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +159,21 @@ TextureImporter:
       name: Atl4_2
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 347
         y: 1978
         width: 255
         height: 67
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 344
+        y: 1932
+        width: 202
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,12 +182,21 @@ TextureImporter:
       name: Atl4_3
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 347
         y: 1936
         width: 192
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 344
+        y: 1976
+        width: 261
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +205,21 @@ TextureImporter:
       name: Atl4_4
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 113
         y: 1618
         width: 332
         height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 453
+        y: 1479
+        width: 297
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,6 +228,7 @@ TextureImporter:
       name: Atl4_5
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 143
         y: 1262
         width: 135
@@ -183,6 +236,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 105, z: 0, w: 58}
+=======
+        x: 109
+        y: 1614
+        width: 340
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -190,6 +252,7 @@ TextureImporter:
       name: Atl4_6
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 4
         y: 1242
         width: 126
@@ -197,6 +260,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 74, z: 0, w: 90}
+=======
+        x: 0
+        y: 1437
+        width: 112
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -204,12 +276,21 @@ TextureImporter:
       name: Atl4_7
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 0
         y: 1440
         width: 111
         height: 300
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 138
+        y: 1252
+        width: 145
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +299,21 @@ TextureImporter:
       name: Atl4_8
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 8
         y: 883
         width: 152
         height: 339
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 0
+        y: 1238
+        width: 137
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -232,12 +322,21 @@ TextureImporter:
       name: Atl4_9
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 183
         y: 951
         width: 238
         height: 289
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 3
+        y: 869
+        width: 165
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -246,12 +345,21 @@ TextureImporter:
       name: Atl4_10
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 450
         y: 992
         width: 238
         height: 487
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 173
+        y: 941
+        width: 252
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,6 +368,7 @@ TextureImporter:
       name: Atl4_11
       rect:
         serializedVersion: 2
+<<<<<<< HEAD
         x: 472
         y: 1504
         width: 260
@@ -378,6 +487,14 @@ TextureImporter:
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+=======
+        x: 449
+        y: 974
+        width: 254
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> fe55f6f50e34b62d474d5728800c6d35ba3d438b
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
