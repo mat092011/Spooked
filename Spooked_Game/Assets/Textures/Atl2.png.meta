@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b400cdabefbeae841a114e2a962190ef
-timeCreated: 1521795745
+timeCreated: 1525332983
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -109,6 +109,7 @@ TextureImporter:
     21300204: Atl2_102
     21300206: Atl2_103
     21300208: Atl2_104
+    21300210: Atl2_105
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -1653,6 +1654,20 @@ TextureImporter:
         height: 157
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_105
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 964
+        width: 426
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
