@@ -1,0 +1,2639 @@
+fileFormatVersion: 2
+guid: d82b987645867db4281afe3f156b64cb
+timeCreated: 1473837640
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: M484BulletCollection2PRE2_0
+    21300002: M484BulletCollection2PRE2_1
+    21300004: M484BulletCollection2PRE2_2
+    21300006: M484BulletCollection2PRE2_3
+    21300008: M484BulletCollection2PRE2_4
+    21300010: M484BulletCollection2PRE2_5
+    21300012: M484BulletCollection2PRE2_6
+    21300014: M484BulletCollection2PRE2_7
+    21300016: M484BulletCollection2PRE2_8
+    21300018: M484BulletCollection2PRE2_9
+    21300020: M484BulletCollection2PRE2_10
+    21300022: M484BulletCollection2PRE2_11
+    21300024: M484BulletCollection2PRE2_12
+    21300026: M484BulletCollection2PRE2_13
+    21300028: M484BulletCollection2PRE2_14
+    21300030: M484BulletCollection2PRE2_15
+    21300032: M484BulletCollection2PRE2_16
+    21300034: M484BulletCollection2PRE2_17
+    21300036: M484BulletCollection2PRE2_18
+    21300038: M484BulletCollection2PRE2_19
+    21300040: M484BulletCollection2PRE2_20
+    21300042: M484BulletCollection2PRE2_21
+    21300044: M484BulletCollection2PRE2_22
+    21300046: M484BulletCollection2PRE2_23
+    21300048: M484BulletCollection2PRE2_24
+    21300050: M484BulletCollection2PRE2_25
+    21300052: M484BulletCollection2PRE2_26
+    21300054: M484BulletCollection2PRE2_27
+    21300056: M484BulletCollection2PRE2_28
+    21300058: M484BulletCollection2PRE2_29
+    21300060: M484BulletCollection2PRE2_30
+    21300062: M484BulletCollection2PRE2_31
+    21300064: M484BulletCollection2PRE2_32
+    21300066: M484BulletCollection2PRE2_33
+    21300068: M484BulletCollection2PRE2_34
+    21300070: M484BulletCollection2PRE2_35
+    21300072: M484BulletCollection2PRE2_36
+    21300074: M484BulletCollection2PRE2_37
+    21300076: M484BulletCollection2PRE2_38
+    21300078: M484BulletCollection2PRE2_39
+    21300080: M484BulletCollection2PRE2_40
+    21300082: M484BulletCollection2PRE2_41
+    21300084: M484BulletCollection2PRE2_42
+    21300086: M484BulletCollection2PRE2_43
+    21300088: M484BulletCollection2PRE2_44
+    21300090: M484BulletCollection2PRE2_45
+    21300092: M484BulletCollection2PRE2_46
+    21300094: M484BulletCollection2PRE2_47
+    21300096: M484BulletCollection2PRE2_48
+    21300098: M484BulletCollection2PRE2_49
+    21300100: M484BulletCollection2PRE2_50
+    21300102: M484BulletCollection2PRE2_51
+    21300104: M484BulletCollection2PRE2_52
+    21300106: M484BulletCollection2PRE2_53
+    21300108: M484BulletCollection2PRE2_54
+    21300110: M484BulletCollection2PRE2_55
+    21300112: M484BulletCollection2PRE2_56
+    21300114: M484BulletCollection2PRE2_57
+    21300116: M484BulletCollection2PRE2_58
+    21300118: M484BulletCollection2PRE2_59
+    21300120: M484BulletCollection2PRE2_60
+    21300122: M484BulletCollection2PRE2_61
+    21300124: M484BulletCollection2PRE2_62
+    21300126: M484BulletCollection2PRE2_63
+    21300128: M484BulletCollection2PRE2_64
+    21300130: M484BulletCollection2PRE2_65
+    21300132: M484BulletCollection2PRE2_66
+    21300134: M484BulletCollection2PRE2_67
+    21300136: M484BulletCollection2PRE2_68
+    21300138: M484BulletCollection2PRE2_69
+    21300140: M484BulletCollection2PRE2_70
+    21300142: M484BulletCollection2PRE2_71
+    21300144: M484BulletCollection2PRE2_72
+    21300146: M484BulletCollection2PRE2_73
+    21300148: M484BulletCollection2PRE2_74
+    21300150: M484BulletCollection2PRE2_75
+    21300152: M484BulletCollection2PRE2_76
+    21300154: M484BulletCollection2PRE2_77
+    21300156: M484BulletCollection2PRE2_78
+    21300158: M484BulletCollection2PRE2_79
+    21300160: M484BulletCollection2PRE2_80
+    21300162: M484BulletCollection2PRE2_81
+    21300164: M484BulletCollection2PRE2_82
+    21300166: M484BulletCollection2PRE2_83
+    21300168: M484BulletCollection2PRE2_84
+    21300170: M484BulletCollection2PRE2_85
+    21300172: M484BulletCollection2PRE2_86
+    21300174: M484BulletCollection2PRE2_87
+    21300176: M484BulletCollection2PRE2_88
+    21300178: M484BulletCollection2PRE2_89
+    21300180: M484BulletCollection2PRE2_90
+    21300182: M484BulletCollection2PRE2_91
+    21300184: M484BulletCollection2PRE2_92
+    21300186: M484BulletCollection2PRE2_93
+    21300188: M484BulletCollection2PRE2_94
+    21300190: M484BulletCollection2PRE2_95
+    21300192: M484BulletCollection2PRE2_96
+    21300194: M484BulletCollection2PRE2_97
+    21300196: M484BulletCollection2PRE2_98
+    21300198: M484BulletCollection2PRE2_99
+    21300200: M484BulletCollection2PRE2_100
+    21300202: M484BulletCollection2PRE2_101
+    21300204: M484BulletCollection2PRE2_102
+    21300206: M484BulletCollection2PRE2_103
+    21300208: M484BulletCollection2PRE2_104
+    21300210: M484BulletCollection2PRE2_105
+    21300212: M484BulletCollection2PRE2_106
+    21300214: M484BulletCollection2PRE2_107
+    21300216: M484BulletCollection2PRE2_108
+    21300218: M484BulletCollection2PRE2_109
+    21300220: M484BulletCollection2PRE2_110
+    21300222: M484BulletCollection2PRE2_111
+    21300224: M484BulletCollection2PRE2_112
+    21300226: M484BulletCollection2PRE2_113
+    21300228: M484BulletCollection2PRE2_114
+    21300230: M484BulletCollection2PRE2_115
+    21300232: M484BulletCollection2PRE2_116
+    21300234: M484BulletCollection2PRE2_117
+    21300236: M484BulletCollection2PRE2_118
+    21300238: M484BulletCollection2PRE2_119
+    21300240: M484BulletCollection2PRE2_120
+    21300242: M484BulletCollection2PRE2_121
+    21300244: M484BulletCollection2PRE2_122
+    21300246: M484BulletCollection2PRE2_123
+    21300248: M484BulletCollection2PRE2_124
+    21300250: M484BulletCollection2PRE2_125
+    21300252: M484BulletCollection2PRE2_126
+    21300254: M484BulletCollection2PRE2_127
+    21300256: M484BulletCollection2PRE2_128
+    21300258: M484BulletCollection2PRE2_129
+    21300260: M484BulletCollection2PRE2_130
+    21300262: M484BulletCollection2PRE2_131
+    21300264: M484BulletCollection2PRE2_132
+    21300266: M484BulletCollection2PRE2_133
+    21300268: M484BulletCollection2PRE2_134
+    21300270: M484BulletCollection2PRE2_135
+    21300272: M484BulletCollection2PRE2_136
+    21300274: M484BulletCollection2PRE2_137
+    21300276: M484BulletCollection2PRE2_138
+    21300278: M484BulletCollection2PRE2_139
+    21300280: M484BulletCollection2PRE2_140
+    21300282: M484BulletCollection2PRE2_141
+    21300284: M484BulletCollection2PRE2_142
+    21300286: M484BulletCollection2PRE2_143
+    21300288: M484BulletCollection2PRE2_144
+    21300290: M484BulletCollection2PRE2_145
+    21300292: M484BulletCollection2PRE2_146
+    21300294: M484BulletCollection2PRE2_147
+    21300296: M484BulletCollection2PRE2_148
+    21300298: M484BulletCollection2PRE2_149
+    21300300: M484BulletCollection2PRE2_150
+    21300302: M484BulletCollection2PRE2_151
+    21300304: M484BulletCollection2PRE2_152
+    21300306: M484BulletCollection2PRE2_153
+    21300308: M484BulletCollection2PRE2_154
+    21300310: M484BulletCollection2PRE2_155
+    21300312: M484BulletCollection2PRE2_156
+    21300314: M484BulletCollection2PRE2_157
+    21300316: M484BulletCollection2PRE2_158
+    21300318: M484BulletCollection2PRE2_159
+    21300320: M484BulletCollection2PRE2_160
+    21300322: M484BulletCollection2PRE2_161
+    21300324: M484BulletCollection2PRE2_162
+    21300326: M484BulletCollection2PRE2_163
+    21300328: M484BulletCollection2PRE2_164
+    21300330: M484BulletCollection2PRE2_165
+    21300332: M484BulletCollection2PRE2_166
+    21300334: M484BulletCollection2PRE2_167
+    21300336: M484BulletCollection2PRE2_168
+    21300338: M484BulletCollection2PRE2_169
+    21300340: M484BulletCollection2PRE2_170
+    21300342: M484BulletCollection2PRE2_171
+    21300344: M484BulletCollection2PRE2_172
+    21300346: M484BulletCollection2PRE2_173
+    21300348: M484BulletCollection2PRE2_174
+    21300350: M484BulletCollection2PRE2_175
+    21300352: M484BulletCollection2PRE2_176
+    21300354: M484BulletCollection2PRE2_177
+    21300356: M484BulletCollection2PRE2_178
+    21300358: M484BulletCollection2PRE2_179
+    21300360: M484BulletCollection2PRE2_180
+    21300362: M484BulletCollection2PRE2_181
+    21300364: M484BulletCollection2PRE2_182
+    21300366: M484BulletCollection2PRE2_183
+    21300368: M484BulletCollection2PRE2_184
+    21300370: M484BulletCollection2PRE2_185
+    21300372: M484BulletCollection2PRE2_186
+    21300374: M484BulletCollection2PRE2_187
+    21300376: M484BulletCollection2PRE2_188
+    21300378: M484BulletCollection2PRE2_189
+    21300380: M484BulletCollection2PRE2_190
+    21300382: M484BulletCollection2PRE2_191
+    21300384: M484BulletCollection2PRE2_192
+    21300386: M484BulletCollection2PRE2_193
+    21300388: M484BulletCollection2PRE2_194
+    21300390: M484BulletCollection2PRE2_195
+    21300392: M484BulletCollection2PRE2_196
+    21300394: M484BulletCollection2PRE2_197
+    21300396: M484BulletCollection2PRE2_198
+    21300398: M484BulletCollection2PRE2_199
+    21300400: M484BulletCollection2PRE2_200
+    21300402: M484BulletCollection2PRE2_201
+    21300404: M484BulletCollection2PRE2_202
+    21300406: M484BulletCollection2PRE2_203
+    21300408: M484BulletCollection2PRE2_204
+    21300410: M484BulletCollection2PRE2_205
+    21300412: M484BulletCollection2PRE2_206
+    21300414: M484BulletCollection2PRE2_207
+    21300416: M484BulletCollection2PRE2_208
+    21300418: M484BulletCollection2PRE2_209
+    21300420: M484BulletCollection2PRE2_210
+    21300422: M484BulletCollection2PRE2_211
+    21300424: M484BulletCollection2PRE2_212
+    21300426: M484BulletCollection2PRE2_213
+    21300428: M484BulletCollection2PRE2_214
+    21300430: M484BulletCollection2PRE2_215
+    21300432: M484BulletCollection2PRE2_216
+    21300434: M484BulletCollection2PRE2_217
+    21300436: M484BulletCollection2PRE2_218
+    21300438: M484BulletCollection2PRE2_219
+    21300440: M484BulletCollection2PRE2_220
+    21300442: M484BulletCollection2PRE2_221
+    21300444: M484BulletCollection2PRE2_222
+    21300446: M484BulletCollection2PRE2_223
+    21300448: M484BulletCollection2PRE2_224
+    21300450: M484BulletCollection2PRE2_225
+    21300452: M484BulletCollection2PRE2_226
+    21300454: M484BulletCollection2PRE2_227
+    21300456: M484BulletCollection2PRE2_228
+    21300458: M484BulletCollection2PRE2_229
+    21300460: M484BulletCollection2PRE2_230
+    21300462: M484BulletCollection2PRE2_231
+    21300464: M484BulletCollection2PRE2_232
+    21300466: M484BulletCollection2PRE2_233
+    21300468: M484BulletCollection2PRE2_234
+    21300470: M484BulletCollection2PRE2_235
+    21300472: M484BulletCollection2PRE2_236
+    21300474: M484BulletCollection2PRE2_237
+    21300476: M484BulletCollection2PRE2_238
+    21300478: M484BulletCollection2PRE2_239
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 165
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_20
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_21
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_23
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_25
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_28
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_29
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_32
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_35
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 148
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_43
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_45
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_46
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_47
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_49
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_50
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_51
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_52
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_53
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 131
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_55
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_56
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_57
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_58
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_59
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_60
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_61
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_62
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 150
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_63
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_64
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_65
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_66
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_67
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_68
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_69
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_70
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_71
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 114
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_73
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_74
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_75
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_76
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_77
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_78
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_79
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_80
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_81
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_82
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_83
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_84
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_85
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_86
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_87
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_88
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_89
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 97
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_95
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_99
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_100
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_101
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_103
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_104
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_105
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_106
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_107
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 80
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_109
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_110
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_112
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_113
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_114
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_115
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_116
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_117
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_118
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_119
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_120
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_121
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_122
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_123
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_124
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_125
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 63
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_127
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_128
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_129
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_130
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_131
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_132
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_133
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_134
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_135
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_136
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_137
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_138
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_139
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_140
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_141
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_142
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_143
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 46
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_145
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_146
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_147
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_148
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_149
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_150
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_151
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_152
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_153
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_154
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_155
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_156
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_157
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_158
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_159
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_160
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_161
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 29
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_163
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_164
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_165
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_166
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_167
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_168
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_169
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_170
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_171
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_172
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_173
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_174
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_175
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_176
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_177
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_178
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: M484BulletCollection2PRE2_179
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 12
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
