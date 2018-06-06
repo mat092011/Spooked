@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b400cdabefbeae841a114e2a962190ef
-timeCreated: 1527754340
+timeCreated: 1528237040
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -123,6 +123,24 @@ TextureImporter:
     21300232: Atl2_116
     21300234: Atl2_117
     21300236: Atl2_118
+    21300238: Atl2_119
+    21300240: Atl2_120
+    21300242: Atl2_121
+    21300244: Atl2_122
+    21300246: Atl2_123
+    21300248: Atl2_124
+    21300250: Atl2_125
+    21300252: Atl2_126
+    21300254: Atl2_127
+    21300256: Atl2_128
+    21300258: Atl2_129
+    21300260: Atl2_130
+    21300262: Atl2_131
+    21300264: Atl2_132
+    21300266: Atl2_133
+    21300268: Atl2_134
+    21300270: Atl2_135
+    21300272: Atl2_136
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -1863,6 +1881,258 @@ TextureImporter:
         height: 3
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_119
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1353
+        width: 91
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_120
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1265
+        width: 71
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_121
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1294
+        width: 22
+        height: 52
+      alignment: 9
+      pivot: {x: 0.3581626, y: 0.9091609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_122
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1280
+        width: 14
+        height: 11
+      alignment: 9
+      pivot: {x: 0.56079537, y: 0.93843216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_123
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 1261
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_124
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1238
+        width: 12
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4290873, y: 0.9052676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_125
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1227
+        width: 21
+        height: 8
+      alignment: 9
+      pivot: {x: 0.7566703, y: 0.8900757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_126
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1226
+        width: 17
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5000036, y: 0.9642112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_127
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1210
+        width: 31
+        height: 45
+      alignment: 9
+      pivot: {x: 0.54239976, y: 0.08136122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_128
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1188
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_129
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1197
+        width: 26
+        height: 18
+      alignment: 9
+      pivot: {x: 0.49124023, y: 0.90160453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_130
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1216
+        width: 16
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_131
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1182
+        width: 25
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_132
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1189
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_133
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1322
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_134
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1211
+        width: 130
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_135
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1159
+        width: 16
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4848709, y: 0.9689865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Atl2_136
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1518
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
