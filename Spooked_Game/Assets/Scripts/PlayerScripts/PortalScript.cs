@@ -17,6 +17,7 @@ public class PortalScript : MonoBehaviour {
 	public GameObject connectedPortal;
 	public GameObject Button;
 	public GameObject controller;
+	public GameObject ActiveButton;
 	public float durOfAnim = 0f;
 	public int biomNum;
 
@@ -45,6 +46,14 @@ public class PortalScript : MonoBehaviour {
 						render.sprite = biom2;
 					}
 				}
+				if (biomNum == 3) {
+					if (render.sprite != null) {
+						Player.GetComponent<ActionScript>().CurrentBiom = 3;
+						Grass.SetActive(false);
+						Particles.SetActive(false);
+						render.sprite = null;
+					}
+				}
 				Player.transform.localPosition = connectedPortal.transform.position;
 				GameObject temp = Instantiate(EffTeleportReverse, Player.transform.position, Quaternion.identity);
 				if (Player.transform.localScale.x < 0) {
@@ -68,7 +77,7 @@ public class PortalScript : MonoBehaviour {
 				Button.SetActive(true);
 			}
 
-			if ((Input.GetKey(KeyCode.DownArrow) || Input.GetButton("Activate")) && !activated) {
+			if ((Input.GetKey(KeyCode.DownArrow) || Input.GetButton("Activate") || ActiveButton.GetComponent<ButtonScript>().activate) && !activated) {
 				GameObject temp = Instantiate(TeleportAnim, Player.transform.position, Quaternion.identity);
 				if (Player.transform.localScale.x < 0) {
 					temp.transform.localScale = new Vector3(temp.transform.localScale.x * -1, temp.transform.localScale.y, temp.transform.localScale.z);
@@ -76,6 +85,7 @@ public class PortalScript : MonoBehaviour {
 				Player.SetActive(false);
 				controller.SetActive(false);
 				activated = true;
+				ActiveButton.GetComponent<ButtonScript>().activate = false;
 				durOfAnim = 1.4f;
 			}
 		}
