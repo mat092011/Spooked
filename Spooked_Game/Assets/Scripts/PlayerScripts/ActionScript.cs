@@ -24,6 +24,7 @@ public class ActionScript : MonoBehaviour {
     public int hallucinateSpell;
 	public bool[] active = new bool[10];
 	public Image Clock;
+	public int CurrentBiom = 1;
 
     void Start ()
     {

@@ -147,7 +147,6 @@ public class SceletonMovement : MonoBehaviour {
 			if (Enemy.transform.position.y > Player.transform.position.y) {
 				enemyPhysics.AddForce(new Vector2(0, 50) * jumpHeight);
 			}
-			Player.GetComponent<ActionScript>().Clock.fillAmount -= 50f / 300f;
 			FindPosition();
 			vector = -vector;
 			onCollisionWithPlayer = true;

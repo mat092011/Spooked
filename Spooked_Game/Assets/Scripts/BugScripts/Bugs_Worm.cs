@@ -13,7 +13,6 @@ public class Bugs_Worm : MonoBehaviour {
     private Vector2 vectorOfMovement;
 	private Animator anim;
 	Rigidbody2D wormPhysics;
-    private GameObject Enemy;
 
     void Start() {
         RandomVector();

@@ -28,6 +28,7 @@ public class Cotel : MonoBehaviour {
     public GameObject prefPart;
     private Color tmp;
     public float maxSpeed = 0.001f;
+	public bool stay = false;
 
 	void Start () {
 		anim = gameObject.GetComponent<Animator>();
@@ -49,6 +50,17 @@ public class Cotel : MonoBehaviour {
 					isSleep = true;
 					Swap(type);
 				}
+			}
+		}
+
+
+		if (stay) {
+			if (!Light.activeSelf) {
+				Light.SetActive(true);
+			}
+		} else {
+			if (Light.activeSelf) {
+				Light.SetActive(false);
 			}
 		}
 

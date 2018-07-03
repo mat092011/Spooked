@@ -7,6 +7,7 @@ public class PortalScript : MonoBehaviour {
 	public GameObject EffTeleportReverse;
 	public GameObject Particles;
 	public SpriteRenderer render;
+	public GameObject Grass;
 	public Sprite biom1;
 	public Sprite biom2;
 	private bool activated = false;
@@ -30,12 +31,16 @@ public class PortalScript : MonoBehaviour {
 			if (activated) {
 				if (biomNum == 1) {
 					if (render.sprite != biom1) {
+						Player.GetComponent<ActionScript>().CurrentBiom = 1;
+						Grass.SetActive(false);
 						Particles.SetActive(true);
 						render.sprite = biom1;
 					}
 				}
 				if (biomNum == 2) {
 					if (render.sprite != biom2) {
+						Player.GetComponent<ActionScript>().CurrentBiom = 2;
+						Grass.SetActive(true);
 						Particles.SetActive(false);
 						render.sprite = biom2;
 					}
