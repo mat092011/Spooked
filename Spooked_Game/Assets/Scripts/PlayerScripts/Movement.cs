@@ -46,13 +46,19 @@ public class Movement : MonoBehaviour {
         anim.SetBool("Grounded", grounded);         //anim
         anim.SetBool("RunSpeed", runSpeed);
 
-		if (playerPhysics.velocity.y == 0) {
-			if (jumpAllowed != true) {
-				jumpAllowed = true;
+		if (GetComponentInParent<MovingPlatform>() == null) {
+			if (playerPhysics.velocity.y == 0) {
+				if (jumpAllowed != true) {
+					jumpAllowed = true;
+				}
+			} else {
+				if (jumpAllowed != false) {
+					jumpAllowed = false;
+				}
 			}
 		} else {
-			if (jumpAllowed != false) {
-				jumpAllowed = false;
+			if (jumpAllowed != true) {
+				jumpAllowed = true;
 			}
 		}
 

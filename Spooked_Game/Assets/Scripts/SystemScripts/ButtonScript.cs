@@ -11,6 +11,7 @@ public class ButtonScript : MonoBehaviour {
 	public SpriteRenderer rend;
 	public bool temp = true;
 	public GameObject Camera;
+	public bool activate = false;
 
 	void Update () {
 		for (int i = 0; i < 10; i++) {
@@ -38,6 +39,9 @@ public class ButtonScript : MonoBehaviour {
 					if (Jump.jump != true) {
 						Jump.jump = true;
 					}
+				}
+				if (num == 5) {
+					activate = true;
 				}
 				temp = false;
 				break;

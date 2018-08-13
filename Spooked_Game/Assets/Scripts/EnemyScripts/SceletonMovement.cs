@@ -57,10 +57,8 @@ public class SceletonMovement : MonoBehaviour {
         else { bulletRelativePosition = false; }
 
         if (delayToShoot <= 0.0f && !onCollisionWithPlayer && !sceletonBulletScoreValue && (Enemy.transform.position.y < Player.transform.position.y + 1f && Enemy.transform.position.y > Player.transform.position.y - 1f)) { // if can shoot and bullet didn`t reach player and yPlayer == yEnemy 
-			int randomize = Random.Range(1, 4);
-            if (randomize == 2) {
-                SpawnBullet();
-            } else { delayToShoot = Random.Range(1.0f, 2.5f); }
+			SpawnBullet();
+			delayToShoot = Random.Range(1.0f, 2.5f);
         }
 
 		RaycastHit2D hit = Physics2D.Raycast(BulletPos.transform.position, BulletPos.transform.position);
@@ -147,7 +145,6 @@ public class SceletonMovement : MonoBehaviour {
 			if (Enemy.transform.position.y > Player.transform.position.y) {
 				enemyPhysics.AddForce(new Vector2(0, 50) * jumpHeight);
 			}
-			Player.GetComponent<ActionScript>().Clock.fillAmount -= 50f / 300f;
 			FindPosition();
 			vector = -vector;
 			onCollisionWithPlayer = true;

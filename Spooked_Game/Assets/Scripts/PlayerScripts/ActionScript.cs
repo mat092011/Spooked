@@ -24,6 +24,7 @@ public class ActionScript : MonoBehaviour {
     public int hallucinateSpell;
 	public bool[] active = new bool[10];
 	public Image Clock;
+	public int CurrentBiom = 1;
 
     void Start ()
     {
@@ -39,7 +40,7 @@ public class ActionScript : MonoBehaviour {
             playerBulletRelativePosition = true;
         }
         else { playerBulletRelativePosition = false; }
-        if ((Input.GetKey(KeyCode.F) || fire || Input.GetButton("Fire1")) && !Movement.fail)
+        if ((Input.GetKey(KeyCode.F) || fire) && !Movement.fail)
         {
 			if (delayToShoot <= 0.0f && lightning > 0 && active[0]) {
 				Instantiate(PlayerBullet, PlayerBulletPosition.transform.position, Quaternion.identity);

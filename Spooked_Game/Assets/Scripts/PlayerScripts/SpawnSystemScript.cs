@@ -97,10 +97,13 @@ public class SpawnSystemScript : MonoBehaviour
 			Vector3 vector = new Vector3(enemyPosition.transform.position.x, enemyPosition.transform.position.y, enemyPosition.transform.position.z);
 			RaycastHit2D hit = Physics2D.Raycast(vector2, vector);
 			if (hit.collider == gameObject.GetComponent<Collider2D>()) {
-				switch (Random.Range(0, 3)) {
+				switch (Random.Range(0, 6)) {
 					case 0: Instantiate(Worm, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
 					case 1: Instantiate(Grasshopper, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
 					case 2: Instantiate(Bee, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+					case 3: Instantiate(Butterfly, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+					case 4: Instantiate(Dragonfly, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
+					case 5: Instantiate(Frog, enemyPosition.transform.position, Quaternion.identity); bugExists++; break;
 				}
 			}
 		}

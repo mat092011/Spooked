@@ -85,6 +85,7 @@ public class CauldronTriggerEnter : MonoBehaviour {
 		GameObject Player = GameObject.FindGameObjectWithTag("Player");
 		if (collision.gameObject == Player && !spawned && Player.GetComponent<Movement>().jumpAllowed) {
 			if (temp == null) {
+				GetComponentInParent<Cotel>().stay = true;
 				temp = Instantiate(Circle, SpawnPoint.transform.position, Quaternion.identity);
 				temp.transform.SetParent(gameObject.transform);
 				spawned = true;
@@ -95,6 +96,7 @@ public class CauldronTriggerEnter : MonoBehaviour {
 
 	void OnCollisionExit2D(Collision2D collision) {
 		if (collision.gameObject == GameObject.FindGameObjectWithTag("Player") && spawned) {
+			GetComponentInParent<Cotel>().stay = false;
 			spawned = false;
 			Cotel.triggered = false;
 		}

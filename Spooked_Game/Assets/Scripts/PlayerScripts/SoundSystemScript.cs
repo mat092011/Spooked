@@ -9,6 +9,9 @@ public class SoundSystemScript : MonoBehaviour {
 	public AudioClip PauseMenuMusic;
 	public AudioClip BugCatchSound;
 	public AudioClip PotEnterSound;
+	public AudioSource backGround;
+	public AudioClip cave;
+	public AudioClip grass;
 	public static bool pauseMenuMusicStart = false;
 	public static bool pauseMenuMusicStop = false;
 	public static bool potEnterSound = false;
@@ -19,6 +22,20 @@ public class SoundSystemScript : MonoBehaviour {
 	}
 	
 	void Update () {
+		if (Player.GetComponent<ActionScript>().CurrentBiom == 1) {
+			if (backGround.clip != cave) {
+				backGround.Stop();
+				backGround.clip = cave;
+				backGround.Play();
+			}
+		}
+		if (Player.GetComponent<ActionScript>().CurrentBiom == 2) {
+			if (backGround.clip != grass) {
+				backGround.Stop();
+				backGround.clip = grass;
+				backGround.Play();
+			}
+		}
 		if (playBugCatchSound) {
 			audioSource.clip = BugCatchSound;
 			audioSource.Play();
